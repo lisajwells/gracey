@@ -6,22 +6,20 @@ $colorLight: #fffee6;
 $colorWhite: #fff;
 
 $color__background-body: $colorWhite;
-$color__background-screen: $colorWhite;
-$color__background-hr: $colorWhite;
-$color__background-button: $colorMainMedium;
-$color__background-button-hover: $colorMainDark;
-$color__background-pre: $colorWhite;
-$color__background-ins: $colorWhite;
 
-$color__text-screen: $colorBlack;
-$color__text-input: $colorBlack;
-$color__text-input-focus: $colorBlack;
+$color__text-main: $colorBlack;
+$color__text-button: $colorWhite;
+
 $color__link: $colorMainMedium;
 $color__link-visited: $colorMainMedium;
 $color__link-hover: $colorMainDark;
-$color__text-main: $colorBlack;
 
+$color__menu-link: $colorBlack;
+$color__menu-link-hover: $colorMainMedium;
+$color__menu-link-focus: $colorMainMedium;
+
+$color__background-button: $colorMainMedium;
+$color__background-button-hover: $colorMainDark;
 $color__border-button: $colorMainDark;
 $color__border-button-hover: $colorMainMedium;
 $color__border-button-focus: $colorMainMedium;
-
