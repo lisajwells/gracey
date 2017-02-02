@@ -11,6 +11,7 @@
   Text Domain: infinity-pro
 */
 
+@import "colors";
 
 /* Table of Contents
   - HTML5 Reset
@@ -154,8 +155,8 @@ body > div {
 }
 
 body {
-  background-color: red;
-  color: #000;
+  background-color: $color__background-body;
+  color: $color__text-main;
   font-family: 'Lato', sans-serif;
   font-size: 22px;
   font-size: 2.2rem;
