@@ -241,20 +241,41 @@ mark {
 blockquote {
   font-size: 33px;
   font-size: 3.3rem;
-  margin: 40px;
+  margin: 40px 0;
 }
 
-blockquote::before {
-  content: "\201C";
-  display: block;
-  font-size: 30px;
-  font-size: 3rem;
-  height: 0;
-  left: -20px;
-  position: relative;
-  top: -10px;
+blockquote:before,
+blockquote:after {
+    background: url(images/quotes.png);
+    background-repeat: no-repeat;
+    background-size: 52px;
+    content: " ";
+    display: block;
+    height: 46px;
+    line-height: 42px;
+    position: relative;
+    text-align: center;
 }
 
+blockquote p {
+  padding: 0 60px;
+}
+
+blockquote:before {
+    background-position: 1px 1px;
+    font-size: 24pt;
+    float: left;
+    top: 14px;
+    width: 60px;
+}
+
+blockquote:after {
+    background-position: 1px -51px;
+    bottom: 84px;
+    float: right;
+    font-size: 24pt;
+    width: 54px;
+}
 
 /* Headings
 --------------------------------------------- */
