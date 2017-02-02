@@ -234,6 +234,7 @@ input[type="search"] {
 /* Float Clearing
 --------------------------------------------- */
 .author-box:before,
+.button:before,
 .clearfix:before,
 .entry:before,
 .entry-content:before,
@@ -251,6 +252,7 @@ input[type="search"] {
   display: table; }
 
 .author-box:after,
+.button:after,
 .clearfix:after,
 .entry:after,
 .entry-content:after,
@@ -309,14 +311,24 @@ textarea:focus,
   transition: all 0.2s ease-in-out; }
 
 a {
-  color: #675b7d;
+  color: #111;
   font-weight: 700;
-  text-decoration: underline; }
+  text-decoration: none; }
 
 a:hover,
 a:focus {
   color: #352c47;
   text-decoration: none; }
+
+.entry-content a {
+  color: #675b7d;
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 2px solid #675b7d; }
+
+.entry-content a:hover,
+.entry-content a:focus {
+  border-bottom: 2px solid #352c47; }
 
 p {
   margin: 0 0 30px;
@@ -560,20 +572,18 @@ input[type="select"],
 input[type="submit"],
 .button {
   background-color: #675b7d;
-  border: 1px solid #352c47;
+  border: 2px solid #352c47;
   border-radius: 0;
   color: #fff;
   cursor: pointer;
   font-family: 'Cardo', serif;
-  font-size: 10px;
-  font-size: 1rem;
+  font-size: 20px;
+  font-size: 2rem;
   -webkit-font-smoothing: antialiased;
   font-weight: 700;
-  letter-spacing: 2px;
   line-height: 1;
   padding: 12px 20px;
   text-decoration: none;
-  text-transform: uppercase;
   white-space: normal;
   width: auto; }
 
@@ -597,7 +607,7 @@ input:focus[type="reset"],
 input:focus[type="submit"],
 .button:focus {
   background-color: #352c47;
-  border: 1px solid #675b7d;
+  border: 2px solid #675b7d;
   color: #fff; }
 
 .entry-content .button:hover,
@@ -1358,14 +1368,6 @@ img.alignright,
 .entry-header {
   text-align: center; }
 
-.entry-header::after {
-  border-bottom: 1px solid #111;
-  content: "";
-  display: block;
-  margin: 0 auto 40px;
-  padding-bottom: 10px;
-  width: 2.5%; }
-
 p.entry-meta {
   font-size: 20px;
   font-size: 2rem; }
@@ -1611,7 +1613,8 @@ p.entry-meta {
 /* Site Footer
 ---------------------------------------------------------------------------------------------------- */
 .site-footer {
-  border-top: 1px solid #eee;
+  background-color: #748daa;
+  color: #fffee6;
   line-height: 1;
   padding: 60px 0;
   text-align: center; }
@@ -1628,7 +1631,7 @@ p.entry-meta {
   margin-bottom: 0; }
 
 .site-footer a {
-  color: #111; }
+  color: #fffee6; }
 
 .site-footer a:hover,
 .site-footer a:focus {

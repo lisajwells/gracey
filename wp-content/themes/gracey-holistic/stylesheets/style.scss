@@ -102,6 +102,7 @@ input[type="search"]{
 --------------------------------------------- */
 
 .author-box:before,
+.button:before,
 .clearfix:before,
 .entry:before,
 .entry-content:before,
@@ -120,6 +121,7 @@ input[type="search"]{
 }
 
 .author-box:after,
+.button:after,
 .clearfix:after,
 .entry:after,
 .entry-content:after,
@@ -188,15 +190,27 @@ textarea:focus,
 }
 
 a {
-  color: $color__link;
+  color: $color__text-main;
   font-weight: 700;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:hover,
 a:focus {
   color: $color__link-hover;
   text-decoration: none;
+}
+
+.entry-content a {
+  color: $color__link;
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 2px solid $color__link;
+}
+
+.entry-content a:hover,
+.entry-content a:focus {
+  border-bottom: 2px solid $color__link-hover;
 }
 
 p {
@@ -491,20 +505,18 @@ input[type="select"],
 input[type="submit"],
 .button {
   background-color: $color__background-button;
-  border: 1px solid $color__border-button;
+  border: 2px solid $color__border-button;
   border-radius: 0;
   color: $color__text-button;
   cursor: pointer;
   font-family: 'Cardo', serif;
-  font-size: 10px;
-  font-size: 1rem;
+  font-size: 20px;
+  font-size: 2rem;
   -webkit-font-smoothing: antialiased;
   font-weight: 700;
-  letter-spacing: 2px;
   line-height: 1;
   padding: 12px 20px;
   text-decoration: none;
-  text-transform: uppercase;
   white-space: normal;
   width: auto;
 }
@@ -531,7 +543,7 @@ input:focus[type="reset"],
 input:focus[type="submit"],
 .button:focus {
   background-color: $color__background-button-hover;
-  border: 1px solid $color__border-button-hover;
+  border: 2px solid $color__border-button-hover;
   color: $color__text-button;
 }
 
@@ -1471,15 +1483,6 @@ img.alignright,
   text-align: center;
 }
 
-.entry-header::after {
-  border-bottom: 1px solid $color__text-main;
-  content: "";
-  display: block;
-  margin: 0 auto 40px;
-  padding-bottom: 10px;
-  width: 2.5%;
-}
-
 p.entry-meta {
   font-size: 20px;
   font-size: 2rem;
@@ -1785,7 +1788,9 @@ p.entry-meta {
 ---------------------------------------------------------------------------------------------------- */
 
 .site-footer {
-  border-top: 1px solid #eee;
+  background-color: $color__background-footer;
+  color: $colorLight;
+  // border-top: 1px solid #eee;
   line-height: 1;
   padding: 60px 0;
   text-align: center;
@@ -1805,7 +1810,7 @@ p.entry-meta {
 }
 
 .site-footer a {
-  color: $color__text-main;
+  color: $colorLight;
 }
 
 .site-footer a:hover,
