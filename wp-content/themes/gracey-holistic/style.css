@@ -304,6 +304,7 @@ input[type="reset"],
 input[type="submit"],
 textarea:focus,
 .button,
+.fl-button,
 .front-page .overlay,
 .gallery img,
 .site-header {
@@ -570,7 +571,8 @@ input[type="button"],
 input[type="reset"],
 input[type="select"],
 input[type="submit"],
-.button {
+.button,
+.fl-builder-content a.fl-button {
   background-color: #675b7d;
   border: 2px solid #352c47;
   border-radius: 0;
