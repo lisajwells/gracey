@@ -97,6 +97,10 @@ input[type="search"]{
   box-sizing: inherit;
 }
 
+.light {
+  color: $color__text-light;
+}
+
 
 /* Float Clearing
 --------------------------------------------- */
@@ -457,6 +461,7 @@ select,
 textarea {
   background-color: $color__background-body;
   border: 1px solid #eee;
+  -webkit-border-radius: 0;
   border-radius: 0;
   color: $color__text-main;
   font-family: 'Cardo', serif;
@@ -508,6 +513,7 @@ input[type="submit"],
 .ghh.page .fl-builder-content a.fl-button {
   background-color: $color__background-button;
   border: 2px solid $color__border-button;
+  -webkit-border-radius: 0;
   border-radius: 0;
   color: $color__text-button;
   cursor: pointer;
