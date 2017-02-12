@@ -179,7 +179,7 @@ input[type="reset"],
 input[type="submit"],
 textarea:focus,
 .button,
-.fl-button,
+.ghh .fl-button,
 .front-page .overlay,
 .gallery img,
 .site-header {
@@ -505,7 +505,7 @@ input[type="reset"],
 input[type="select"],
 input[type="submit"],
 .button,
-.fl-builder-content a.fl-button {
+.ghh .fl-builder-content a.fl-button {
   background-color: $color__background-button;
   border: 2px solid $color__border-button;
   border-radius: 0;
@@ -521,6 +521,10 @@ input[type="submit"],
   text-decoration: none;
   white-space: normal;
   width: auto;
+}
+
+.ghh .fl-builder-content a.fl-button * {
+  color: $color__text-button;
 }
 
 .button.large {
@@ -539,11 +543,13 @@ input:hover[type="button"],
 input:hover[type="reset"],
 input:hover[type="submit"],
 .button:hover,
+.ghh .fl-builder-content a.fl-button:hover,
 button:focus,
 input:focus[type="button"],
 input:focus[type="reset"],
 input:focus[type="submit"],
-.button:focus {
+.button:focus,
+.ghh .fl-builder-content a.fl-button:focus {
   background-color: $color__background-button-hover;
   border: 2px solid $color__border-button-hover;
   color: $color__text-button;
