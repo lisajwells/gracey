@@ -292,3 +292,8 @@ genesis_register_sidebar( array(
 	'name'        => __( 'Offscreen Content', 'infinity-pro' ),
 	'description' => __( 'This is the offscreen content section.', 'infinity-pro' ),
 ) );
+
+// Add a custom body class
+add_filter( 'body_class', function( $classes ) {
+    return array_merge( $classes, array( 'ghh' ) );
+} );
