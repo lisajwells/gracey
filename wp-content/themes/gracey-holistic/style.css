@@ -124,7 +124,7 @@ h1 {
 
 mark {
   background-color: #ff0;
-  color: #111; }
+  color: #444; }
 
 small {
   font-size: 80%; }
@@ -290,7 +290,7 @@ body > div {
 
 body {
   background-color: #fff;
-  color: #111;
+  color: #444;
   font-family: 'Lato', sans-serif;
   font-size: 22px;
   font-size: 2.2rem;
@@ -318,7 +318,7 @@ textarea:focus,
   transition: all 0.2s ease-in-out; }
 
 a {
-  color: #111;
+  color: #444;
   font-weight: 700;
   text-decoration: none; }
 
@@ -367,7 +367,7 @@ i {
 
 mark {
   background: #fffee6;
-  color: #111; }
+  color: #444; }
 
 blockquote {
   font-size: 33px;
@@ -537,7 +537,7 @@ textarea {
   background-color: #fff;
   border: 1px solid #eee;
   border-radius: 0;
-  color: #111;
+  color: #444;
   font-family: 'Cardo', serif;
   font-size: 20px;
   font-size: 2rem;
@@ -913,7 +913,7 @@ th:first-child {
 
 .entry-title a,
 .sidebar .widget-title a {
-  color: #111;
+  color: #444;
   text-decoration: none; }
 
 .entry-title a:hover,
@@ -1059,7 +1059,7 @@ img.alignright,
 
 .footer-widgets .featured-content .entry-meta a,
 .sidebar .featured-content .entry-meta a {
-  color: #111;
+  color: #444;
   text-decoration: none; }
 
 .footer-widgets .featured-content .entry-meta a:hover,
@@ -1140,7 +1140,7 @@ img.alignright,
 
 .enews-widget input[type="submit"] {
   background-color: #fff;
-  color: #111;
+  color: #444;
   font-size: 10px;
   font-size: 1rem;
   margin: 0;
@@ -1169,7 +1169,7 @@ img.alignright,
 
 /* Display outline on focus */
 :focus {
-  color: #111;
+  color: #444;
   outline: #ccc solid 1px; }
 
 /* Site Header
@@ -1210,7 +1210,7 @@ img.alignright,
 .site-title a,
 .site-title a:hover,
 .site-title a:focus {
-  color: #111;
+  color: #444;
   text-decoration: none; }
 
 .header-image .site-title > a {
@@ -1364,7 +1364,7 @@ img.alignright,
 
 .entry-content code {
   background-color: #fff;
-  color: #111; }
+  color: #444; }
 
 .center {
   text-align: center; }
@@ -1403,7 +1403,7 @@ p.entry-meta {
   margin-bottom: 0; }
 
 .archive-pagination a {
-  color: #111;
+  color: #444;
   font-size: 18px;
   font-size: 1.8rem; }
 
@@ -1416,7 +1416,7 @@ p.entry-meta {
 
 .archive-pagination li a {
   background-color: #fff;
-  color: #111;
+  color: #444;
   cursor: pointer;
   display: inline-block;
   font-family: 'Lato', sans-serif;
@@ -1626,7 +1626,7 @@ p.entry-meta {
 /* Site Footer
 ---------------------------------------------------------------------------------------------------- */
 .site-footer {
-  background-color: #748daa;
+  background-color: #779386;
   color: #fffee6;
   line-height: 1;
   padding: 60px 0;
