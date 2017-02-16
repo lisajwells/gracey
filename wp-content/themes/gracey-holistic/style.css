@@ -10,7 +10,6 @@
 
   Text Domain: infinity-pro
 */
-/* 61% black */
 /* Table of Contents
   - HTML5 Reset
     - Baseline Normalize
@@ -370,6 +369,7 @@ mark {
   color: #444; }
 
 blockquote {
+  color: #779386;
   font-size: 33px;
   font-size: 3.3rem;
   margin: 40px 0; }
@@ -750,7 +750,7 @@ th:first-child {
   float: none;
   margin-left: auto;
   margin-right: auto;
-  max-width: 840px;
+  max-width: none;
   width: 100%; }
 
 /* .full exists as a wider option for .full-width-content--1280px of .site-inner */
