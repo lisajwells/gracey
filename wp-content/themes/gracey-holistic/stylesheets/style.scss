@@ -18,6 +18,7 @@
     - Baseline Normalize
     - Box Sizing
     - Float Clearing
+  - Helpers
   - Defaults
     - Typographical Elements
     - Headings
@@ -102,11 +103,6 @@ input[type="search"]{
   box-sizing: inherit;
 }
 
-.light {
-  color: $color__text-light;
-}
-
-
 /* Float Clearing
 --------------------------------------------- */
 
@@ -147,6 +143,17 @@ input[type="search"]{
   clear: both;
   content: " ";
   display: table;
+}
+
+/* Helpers
+---------------------------------------------------------------------------------------------------- */
+
+.light {
+  color: $color__text-light;
+}
+
+.white {
+  color: $colorWhite;
 }
 
 /* Defaults
