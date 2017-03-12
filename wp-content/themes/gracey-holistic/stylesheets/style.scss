@@ -734,6 +734,10 @@ th:first-child {
   width: 100%;
 }
 
+.home .content {
+  padding: 0;
+}
+
 /* .full exists as a wider option for .full-width-content--1280px of .site-inner */
 .full.full-width-content .content,
 .full.landing-page .site-inner,
