@@ -291,14 +291,14 @@ html {
 
 /* Chrome fix */
 body > div {
-  font-size: 2.2rem; }
+  font-size: 1.8rem; }
 
 body {
   background-color: #fff;
   color: #444;
   font-family: 'Lato', sans-serif;
-  font-size: 22px;
-  font-size: 2.2rem;
+  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.75;
   margin: 0; }
@@ -423,16 +423,16 @@ h6 {
   margin: 0 0 20px; }
 
 h1 {
-  font-size: 48px;
-  font-size: 4.8rem; }
+  font-size: 46px;
+  font-size: 4.6rem; }
 
 h2 {
-  font-size: 42px;
-  font-size: 4.2rem; }
-
-h3 {
   font-size: 36px;
   font-size: 3.6rem; }
+
+h3 {
+  font-size: 26px;
+  font-size: 2.6rem; }
 
 .comment-respond h3,
 .entry-comments h3,
