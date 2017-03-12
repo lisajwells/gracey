@@ -346,8 +346,8 @@ h3 {
 }
 
 h4 {
-  font-size: 27px;
-  font-size: 2.7rem;
+  font-size: 22px;
+  font-size: 2.2rem;
 }
 
 .entry-content h4 {
@@ -362,13 +362,13 @@ h4 {
 }
 
 h5 {
-  font-size: 24px;
-  font-size: 2.4rem;
+  font-size: 20px;
+  font-size: 2.0rem;
 }
 
 h6 {
-  font-size: 20px;
-  font-size: 2rem;
+  font-size: 18px;
+  font-size: 1.8rem;
 }
 
 /* Objects
@@ -699,6 +699,10 @@ th:first-child {
 .lead-capture-page .site-inner {
   margin-top: 0;
   max-width: 840px;
+}
+
+.home .site-inner {
+  max-width: none;
 }
 
 /* Column Widths and Positions
