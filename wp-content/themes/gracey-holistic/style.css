@@ -275,10 +275,10 @@ input[type="search"] {
 
 /* Helpers
 ---------------------------------------------------------------------------------------------------- */
-.light {
+.light-text {
   color: #fffee6; }
 
-.white {
+.white-text {
   color: #fff; }
 
 /* Defaults
