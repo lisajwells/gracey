@@ -1249,7 +1249,7 @@ img.alignright,
   text-align: left; }
 
 .genesis-nav-menu a {
-  color: #111;
+  color: #fff;
   display: block;
   font-family: 'Lato', sans-serif;
   font-size: 10px;
@@ -1265,7 +1265,7 @@ img.alignright,
 .genesis-nav-menu .current-menu-item > a,
 .genesis-nav-menu .sub-menu .current-menu-item > a:hover,
 .genesis-nav-menu .sub-menu .current-menu-item > a:focus {
-  color: #675b7d;
+  color: #111;
   text-decoration: none; }
 
 .genesis-nav-menu .sub-menu {
@@ -1734,7 +1734,7 @@ p.entry-meta {
   .sub-menu-toggle:focus,
   .sub-menu-toggle:hover {
     background: transparent;
-    color: #675b7d;
+    color: #111;
     border-width: 0; }
   .menu-toggle:focus,
   .sub-menu-toggle:focus {
