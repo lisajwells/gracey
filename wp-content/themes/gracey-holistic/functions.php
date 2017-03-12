@@ -297,3 +297,6 @@ genesis_register_sidebar( array(
 add_filter( 'body_class', function( $classes ) {
     return array_merge( $classes, array( 'ghh' ) );
 } );
+
+// Remove edit link from posts
+add_filter( 'edit_post_link', '__return_false' );
