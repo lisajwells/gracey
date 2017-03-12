@@ -15,6 +15,7 @@
     - Baseline Normalize
     - Box Sizing
     - Float Clearing
+  - Helpers
   - Defaults
     - Typographical Elements
     - Headings
@@ -233,9 +234,6 @@ input[type="search"] {
 *:after {
   box-sizing: inherit; }
 
-.light {
-  color: #fffee6; }
-
 /* Float Clearing
 --------------------------------------------- */
 .author-box:before,
@@ -274,6 +272,14 @@ input[type="search"] {
   clear: both;
   content: " ";
   display: table; }
+
+/* Helpers
+---------------------------------------------------------------------------------------------------- */
+.light {
+  color: #fffee6; }
+
+.white {
+  color: #fff; }
 
 /* Defaults
 ---------------------------------------------------------------------------------------------------- */
@@ -1175,7 +1181,7 @@ img.alignright,
 /* Site Header
 ---------------------------------------------------------------------------------------------------- */
 .site-header {
-  background-color: #fff;
+  background-color: #675b7d;
   border-bottom: 1px solid #eee;
   padding-left: 30px;
   padding-right: 30px;
