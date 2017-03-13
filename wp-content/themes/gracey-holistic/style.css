@@ -626,8 +626,7 @@ input:focus[type="submit"],
 .button:focus,
 .ghh.page .fl-builder-content a.fl-button:focus {
   background-color: #352c47;
-  border: 2px solid #675b7d;
-  color: #fff; }
+  border: 2px solid #675b7d; }
 
 .entry-content .button:hover,
 .entry-content .button:focus {
