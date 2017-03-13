@@ -1270,7 +1270,7 @@ img.alignright,
 .genesis-nav-menu .current-menu-item > a,
 .genesis-nav-menu .sub-menu .current-menu-item > a:hover,
 .genesis-nav-menu .sub-menu .current-menu-item > a:focus {
-  color: #111;
+  color: #b0c0b9;
   text-decoration: none; }
 
 .genesis-nav-menu .sub-menu {
@@ -1739,7 +1739,7 @@ p.entry-meta {
   .sub-menu-toggle:focus,
   .sub-menu-toggle:hover {
     background: transparent;
-    color: #111;
+    color: #b0c0b9;
     border-width: 0; }
   .menu-toggle:focus,
   .sub-menu-toggle:focus {
