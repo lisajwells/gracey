@@ -1964,8 +1964,8 @@ p.entry-meta {
   .menu-toggle,
   .sub-menu-toggle {
     border-width: 0;
-    background-color: $color__background-body;
-    color: #333;
+    background-color: $colorMainMedium;
+    color: $color__menu-link;
     display: block;
     margin: 0 auto;
     overflow: hidden;
@@ -2042,11 +2042,11 @@ p.entry-meta {
 
   .genesis-responsive-menu .genesis-nav-menu a:focus,
   .genesis-responsive-menu .genesis-nav-menu a:hover {
-    color: $color__link-hover;
+    color: $color__menu-link-hover;
   }
 
   .genesis-responsive-menu .genesis-nav-menu a:focus {
-    color: $color__link-hover;
+    color: $color__menu-link-hover;
     outline: thin solid #ccc;
     outline-offset: -1px;
   }

@@ -1727,8 +1727,8 @@ p.entry-meta {
   .menu-toggle,
   .sub-menu-toggle {
     border-width: 0;
-    background-color: #fff;
-    color: #333;
+    background-color: #675b7d;
+    color: #fff;
     display: block;
     margin: 0 auto;
     overflow: hidden;
@@ -1785,9 +1785,9 @@ p.entry-meta {
     position: relative; }
   .genesis-responsive-menu .genesis-nav-menu a:focus,
   .genesis-responsive-menu .genesis-nav-menu a:hover {
-    color: #352c47; }
+    color: #b0c0b9; }
   .genesis-responsive-menu .genesis-nav-menu a:focus {
-    color: #352c47;
+    color: #b0c0b9;
     outline: thin solid #ccc;
     outline-offset: -1px; }
   .genesis-responsive-menu .genesis-nav-menu .menu-item a {
