@@ -230,6 +230,10 @@ a:focus {
   border-bottom: none;
 }
 
+.entry-content .fl-photo-content a:hover {
+  opacity: .7;
+}
+
 .entry-content a:hover,
 .entry-content a:focus {
   border-bottom: 2px solid $color__link-hover;
