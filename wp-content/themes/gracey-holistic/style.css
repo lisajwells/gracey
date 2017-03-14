@@ -1326,7 +1326,7 @@ img.alignright,
 /* Primary Navigation
 --------------------------------------------- */
 .nav-primary {
-  float: left;
+  float: right;
   margin-top: 2px;
   text-align: center; }
 
