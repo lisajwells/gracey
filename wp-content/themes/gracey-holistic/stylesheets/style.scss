@@ -225,6 +225,10 @@ a:focus {
   border-bottom: 2px solid $color__link;
 }
 
+.entry-content .fl-photo-content a {
+  border-bottom: none;
+}
+
 .entry-content a:hover,
 .entry-content a:focus {
   border-bottom: 2px solid $color__link-hover;
