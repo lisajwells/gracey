@@ -338,7 +338,8 @@ a:focus {
   text-decoration: none;
   border-bottom: 2px solid #675b7d; }
 
-.entry-content .fl-photo-content a {
+.entry-content .fl-photo-content a,
+.entry-content .fl-photo-content a:hover {
   border-bottom: none; }
 
 .entry-content a:hover,
