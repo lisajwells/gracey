@@ -235,10 +235,20 @@ p {
   padding: 0;
 }
 
+.big-serif-p p {
+  font-family: 'Cardo', serif;
+  font-size: 24px;
+  font-size: 2.4rem;
+}
+
 ol,
 ul {
   margin: 0;
   padding: 0;
+}
+
+.tight-top { // take away extra margin above ul
+  margin-top: -30px;
 }
 
 li {
