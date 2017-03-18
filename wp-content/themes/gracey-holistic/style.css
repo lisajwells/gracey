@@ -610,6 +610,7 @@ input[type="submit"],
   -webkit-font-smoothing: antialiased;
   font-weight: 700;
   line-height: 1;
+  margin-top: -20px;
   padding: 12px 20px;
   text-decoration: none;
   white-space: normal;
@@ -1520,12 +1521,17 @@ p.entry-meta {
   #menu-menu-of-services li {
     list-style-type: none; }
     #menu-menu-of-services li.current-menu-item a {
-      color: #352c47; }
+      border-bottom: 2px solid;
+      color: #fffee6; }
   #menu-menu-of-services a {
     border-bottom: none;
     color: #fffee6; }
     #menu-menu-of-services a:hover {
-      color: #352c47; }
+      border-bottom: 2px solid;
+      color: #fffee6; }
+
+.fl-rich-text p:last-of-type {
+  margin-bottom: 0; }
 
 /* Team Page
 ---------------------------------------------------------------------------------------------------- */
