@@ -52,7 +52,6 @@
     - Entry Meta
     - Pagination
     - Comments
-  - Beaver Builder Content Area
   - Team Page
   - Sidebar
   - Offscreen Content
@@ -1502,10 +1501,8 @@ p.entry-meta {
 .entry-pings .reply {
   display: none; }
 
-/* Beaver Builder Content Area
----------------------------------------------------------------------------------------------- */
 /* Team Page
------------------------------------------------------------------------------------------------ */
+---------------------------------------------------------------------------------------------------- */
 .team-page .content {
   max-width: 100%; }
 
