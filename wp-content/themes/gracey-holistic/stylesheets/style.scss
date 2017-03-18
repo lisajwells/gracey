@@ -227,11 +227,14 @@ a:focus {
 }
 
 .entry-content .fl-photo-content a,
-.entry-content .fl-photo-content a:hover {
+.entry-content .fl-photo-content a:hover,
+.entry-content .fl-post-grid-image a,
+.entry-content .fl-post-grid-image a:hover {
   border-bottom: none;
 }
 
-.entry-content .fl-photo-content a:hover {
+.entry-content .fl-photo-content a:hover,
+.entry-content .fl-post-grid-image a:hover  {
   opacity: .7;
 }
 
