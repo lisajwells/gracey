@@ -52,6 +52,7 @@
     - Entry Meta
     - Pagination
     - Comments
+  - Beaver Builder Content
   - Team Page
   - Sidebar
   - Offscreen Content
@@ -441,6 +442,9 @@ h1 {
   font-size: 46px;
   font-size: 4.6rem; }
 
+h1.entry-title {
+  margin: 0; }
+
 h2 {
   font-size: 36px;
   font-size: 3.6rem; }
@@ -774,6 +778,7 @@ th:first-child {
   margin-left: auto;
   margin-right: auto;
   max-width: none;
+  padding: 40px 60px;
   width: 100%; }
 
 .home .content {
@@ -1500,6 +1505,14 @@ p.entry-meta {
 
 .entry-pings .reply {
   display: none; }
+
+/* Beaver Builder Content
+---------------------------------------------------------------------------------------------------- */
+.fl-row-content-wrap {
+  padding: 0; }
+
+.fl-row-content-wrap .content {
+  padding: 0; }
 
 /* Team Page
 ---------------------------------------------------------------------------------------------------- */

@@ -55,6 +55,7 @@
     - Entry Meta
     - Pagination
     - Comments
+  - Beaver Builder Content
   - Team Page
   - Sidebar
   - Offscreen Content
@@ -346,6 +347,10 @@ h6 {
 h1 {
   font-size: 46px;
   font-size: 4.6rem;
+}
+
+h1.entry-title {
+  margin: 0;
 }
 
 h2 {
@@ -750,6 +755,7 @@ th:first-child {
   margin-left: auto;
   margin-right: auto;
   max-width: none;
+  padding: 40px 60px;
   width: 100%;
 }
 
@@ -1654,6 +1660,17 @@ p.entry-meta {
   display: none;
 }
 
+
+/* Beaver Builder Content
+---------------------------------------------------------------------------------------------------- */
+
+.fl-row-content-wrap {
+    padding: 0;
+}
+
+.fl-row-content-wrap .content {
+    padding: 0;
+}
 
 /* Team Page
 ---------------------------------------------------------------------------------------------------- */
