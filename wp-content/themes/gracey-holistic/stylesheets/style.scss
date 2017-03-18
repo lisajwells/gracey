@@ -350,7 +350,7 @@ h1 {
 }
 
 h1.entry-title {
-  margin: 0;
+  // margin: 0;
 }
 
 h2 {
@@ -369,13 +369,14 @@ h3 {
   margin-bottom: 10px;
 }
 
-h4 {
+h4,
+h2.widgettitle {
   font-size: 22px;
   font-size: 2.2rem;
 }
 
 .entry-content h4 {
-  margin-top: 40px;
+  // margin-top: 40px;
 }
 
 .landing-page .entry-content h4,
@@ -1671,6 +1672,41 @@ p.entry-meta {
 .fl-row-content-wrap .content {
     padding: 0;
 }
+
+.schedule-box,
+.menu-of-services {
+  background-color: $colorSecondary;
+  margin: 40px 0;
+  text-align: center;
+}
+
+#menu-menu-of-services {
+
+  margin-left: 0;
+
+  li {
+    list-style-type: none;
+
+    &.current-menu-item a {
+      color: $colorMainDark;
+    }
+
+  }
+
+  a {
+    border-bottom: none;
+    color: $colorLight;
+
+    &:hover {
+      color: $colorMainDark;
+    }
+  }
+
+}
+
+
+
+
 
 /* Team Page
 ---------------------------------------------------------------------------------------------------- */

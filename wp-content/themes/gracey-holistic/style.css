@@ -442,9 +442,6 @@ h1 {
   font-size: 46px;
   font-size: 4.6rem; }
 
-h1.entry-title {
-  margin: 0; }
-
 h2 {
   font-size: 36px;
   font-size: 3.6rem; }
@@ -458,12 +455,10 @@ h3 {
 .entry-pings h3 {
   margin-bottom: 10px; }
 
-h4 {
+h4,
+h2.widgettitle {
   font-size: 22px;
   font-size: 2.2rem; }
-
-.entry-content h4 {
-  margin-top: 40px; }
 
 .landing-page .entry-content h4,
 .lead-capture-page .entry-content h4 {
@@ -1513,6 +1508,24 @@ p.entry-meta {
 
 .fl-row-content-wrap .content {
   padding: 0; }
+
+.schedule-box,
+.menu-of-services {
+  background-color: #779386;
+  margin: 40px 0;
+  text-align: center; }
+
+#menu-menu-of-services {
+  margin-left: 0; }
+  #menu-menu-of-services li {
+    list-style-type: none; }
+    #menu-menu-of-services li.current-menu-item a {
+      color: #352c47; }
+  #menu-menu-of-services a {
+    border-bottom: none;
+    color: #fffee6; }
+    #menu-menu-of-services a:hover {
+      color: #352c47; }
 
 /* Team Page
 ---------------------------------------------------------------------------------------------------- */
