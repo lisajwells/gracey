@@ -300,3 +300,20 @@ add_filter( 'body_class', function( $classes ) {
 
 // Remove edit link from posts
 add_filter( 'edit_post_link', '__return_false' );
+
+// Allow shortcode in widgets
+add_filter('widget_text', 'do_shortcode');
+
+/** Force content-sidebar layout on single posts only*/
+add_filter( 'genesis_pre_get_option_site_layout', 'ghh_content_sidebar_layout_single_posts' );
+/**
+* @author Brad Dalton
+* @link http://wpsites.net/web-design/change-layout-genesis/
+*/
+function ghh_content_sidebar_layout_single_posts( $opt ) {
+if ( is_single() ) {
+    $opt = 'content-sidebar';
+    return $opt;
+
+    }
+}

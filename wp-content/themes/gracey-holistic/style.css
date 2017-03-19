@@ -1519,6 +1519,14 @@ p.entry-meta {
   margin: 40px 0;
   text-align: center; }
 
+.schedule-box p {
+  font-size: 16px; }
+  .schedule-box p a {
+    border-bottom: none;
+    color: #fffee6; }
+    .schedule-box p a:hover {
+      border-bottom: none; }
+
 #menu-menu-of-services {
   margin-left: 0; }
   #menu-menu-of-services li {

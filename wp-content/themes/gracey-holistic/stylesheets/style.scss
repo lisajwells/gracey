@@ -1684,6 +1684,21 @@ p.entry-meta {
   text-align: center;
 }
 
+.schedule-box p {
+    font-size: 16px;
+
+    a {
+      border-bottom: none;
+      color: $colorLight;
+
+      &:hover {
+        border-bottom: none;
+      }
+
+
+    }
+}
+
 #menu-menu-of-services {
   margin-left: 0;
 
