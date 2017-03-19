@@ -8,8 +8,8 @@ function ghh_featured_post_image() {
     the_post_thumbnail('post-image');
 }
 
-
-
+/* Wireframe does not include author and date */
+remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
 
 
 
