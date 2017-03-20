@@ -467,6 +467,10 @@ h3.widgettitle {
   letter-spacing: 0;
   text-transform: none; }
 
+.widgettitle,
+h3.widgettitle {
+  text-align: center; }
+
 .landing-page .entry-content h4,
 .lead-capture-page .entry-content h4 {
   margin-bottom: 40px;

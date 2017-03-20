@@ -382,6 +382,11 @@ h3.widgettitle {
   text-transform: none;
 }
 
+.widgettitle,
+h3.widgettitle {
+  text-align: center;
+}
+
 .entry-content h4 {
   // margin-top: 40px;
 }
