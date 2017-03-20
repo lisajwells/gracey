@@ -461,15 +461,15 @@ h3 {
 h4,
 .widgettitle,
 h3.widgettitle {
-  color: #fffee6;
   font-size: 22px;
-  font-size: 2.2rem;
-  letter-spacing: 0;
-  text-transform: none; }
+  font-size: 2.2rem; }
 
 .widgettitle,
 h3.widgettitle {
-  text-align: center; }
+  color: #fffee6;
+  letter-spacing: 0;
+  text-align: center;
+  text-transform: none; }
 
 .landing-page .entry-content h4,
 .lead-capture-page .entry-content h4 {
