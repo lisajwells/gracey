@@ -316,7 +316,7 @@ input[type="reset"],
 input[type="submit"],
 textarea:focus,
 .button,
-.ghh.page .fl-button,
+.ghh .fl-button,
 .front-page .overlay,
 .gallery img,
 .site-header {
@@ -601,7 +601,7 @@ input[type="reset"],
 input[type="select"],
 input[type="submit"],
 .button,
-.ghh.page .fl-builder-content a.fl-button {
+.ghh .fl-builder-content a.fl-button {
   background-color: #675b7d;
   border: 2px solid #352c47;
   border-radius: 0;
@@ -619,7 +619,7 @@ input[type="submit"],
   white-space: normal;
   width: auto; }
 
-.ghh.page .fl-builder-content a.fl-button * {
+.ghh .fl-builder-content a.fl-button * {
   color: #fff; }
 
 .button.large {
@@ -636,13 +636,13 @@ input:hover[type="button"],
 input:hover[type="reset"],
 input:hover[type="submit"],
 .button:hover,
-.ghh.page .fl-builder-content a.fl-button:hover,
+.ghh .fl-builder-content a.fl-button:hover,
 button:focus,
 input:focus[type="button"],
 input:focus[type="reset"],
 input:focus[type="submit"],
 .button:focus,
-.ghh.page .fl-builder-content a.fl-button:focus {
+.ghh .fl-builder-content a.fl-button:focus {
   background-color: #352c47;
   border: 2px solid #675b7d; }
 
