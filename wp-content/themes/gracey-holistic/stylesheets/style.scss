@@ -1070,7 +1070,7 @@ img.alignright,
   word-wrap: break-word;
 }
 
-.widget p:last-child,
+// .widget p:last-child,
 .widget ul > li:last-of-type,
 .widget-area .widget:last-of-type {
   margin-bottom: 0;
@@ -1105,6 +1105,14 @@ img.alignright,
 .widget_calendar td,
 .widget_calendar th {
   text-align: center;
+}
+
+.fl-subscribe-form input {
+    margin-bottom: 20px;
+}
+
+.popular-posts .widget-wrap {
+    background-color: $colorSecondary;
 }
 
 /* Featured Content
