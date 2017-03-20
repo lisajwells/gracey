@@ -1019,6 +1019,9 @@ img.alignright,
 .entry-content .wp-video {
   margin: 0 0 30px; }
 
+.wp-post-image {
+  margin-bottom: 1em; }
+
 /* Widgets
 ---------------------------------------------------------------------------------------------------- */
 .widget {
