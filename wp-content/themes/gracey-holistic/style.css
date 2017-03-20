@@ -506,60 +506,7 @@ figure {
 
 /* Gallery
 --------------------------------------------- */
-.gallery {
-  overflow: hidden; }
-
-.gallery-item {
-  float: left;
-  margin: 0 0 30px;
-  text-align: center; }
-
-.gallery-columns-1 .gallery-item {
-  width: 100%; }
-
-.gallery-columns-2 .gallery-item {
-  width: 50%; }
-
-.gallery-columns-3 .gallery-item {
-  width: 33%; }
-
-.gallery-columns-4 .gallery-item {
-  width: 25%; }
-
-.gallery-columns-5 .gallery-item {
-  width: 20%; }
-
-.gallery-columns-6 .gallery-item {
-  width: 16.6666%; }
-
-.gallery-columns-7 .gallery-item {
-  width: 14.2857%; }
-
-.gallery-columns-8 .gallery-item {
-  width: 12.5%; }
-
-.gallery-columns-9 .gallery-item {
-  width: 11.1111%; }
-
-.gallery-columns-2 .gallery-item:nth-child(2n+1),
-.gallery-columns-3 .gallery-item:nth-child(3n+1),
-.gallery-columns-4 .gallery-item:nth-child(4n+1),
-.gallery-columns-5 .gallery-item:nth-child(5n+1),
-.gallery-columns-6 .gallery-item:nth-child(6n+1),
-.gallery-columns-7 .gallery-item:nth-child(7n+1),
-.gallery-columns-8 .gallery-item:nth-child(8n+1),
-.gallery-columns-9 .gallery-item:nth-child(9n+1) {
-  clear: left; }
-
-.gallery img {
-  border: 1px solid #eee;
-  height: auto;
-  padding: 4px; }
-
-.gallery img:hover,
-.gallery img:focus {
-  border: 1px solid #999; }
-
+/* deleted because we're not using it */
 /* Forms
 --------------------------------------------- */
 input,
@@ -1143,60 +1090,7 @@ img.alignright,
 ---------------------------------------------------------------------------------------------------- */
 /* Genesis eNews Extended
 --------------------------------------------- */
-.enews-widget,
-.enews-widget input {
-  text-align: center; }
-
-.after-entry .enews-widget,
-.landing-page .enews-widget,
-.lead-capture-page .enews-widget {
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%; }
-
-.landing-page .enews-widget,
-.lead-capture-page .enews-widget,
-.offscreen-content .enews-widget {
-  background-color: #fff;
-  padding: 60px; }
-
-.enews-widget form {
-  margin-left: 20px;
-  margin-right: 20px; }
-
-.offscreen-content .enews-widget form {
-  margin-left: 60px;
-  margin-right: 60px; }
-
-.enews-widget p {
-  margin-bottom: 20px; }
-
-.enews-widget form + p {
-  margin-top: 20px; }
-
-.enews-widget input {
-  font-size: 16px;
-  font-size: 1.6rem;
-  margin-bottom: 15px;
-  padding-bottom: 10px;
-  padding-top: 10px; }
-
-.landing-page .enews-widget input,
-.lead-capture-page .enews-widget input,
-.offscreen-content .enews-widget input {
-  background-color: #fff; }
-
-.enews-widget input[type="submit"] {
-  background-color: #fff;
-  color: #444;
-  font-size: 10px;
-  font-size: 1rem;
-  margin: 0;
-  width: auto !important; }
-
-.enews-widget input:hover[type="submit"] {
-  background-color: #352c47; }
-
+/* deleted because we're not using it */
 /* Jetpack
 --------------------------------------------- */
 #wpstats {
@@ -1569,28 +1463,7 @@ p.entry-meta {
 
 /* Team Page
 ---------------------------------------------------------------------------------------------------- */
-.team-page .content {
-  max-width: 100%; }
-
-.team-page .content .entry {
-  margin-bottom: 40px; }
-
-.team-page h2.entry-title {
-  font-size: 24px;
-  font-size: 2.4rem;
-  margin-bottom: 0;
-  margin-top: 20px; }
-
-.team-page .one-fourth .entry {
-  margin-bottom: 40px; }
-
-.team-page .one-fourth .entry-header::after {
-  display: none; }
-
-.team-page .entry-content p:last-child,
-.team-page .one-fourth .team-title {
-  margin-bottom: 0; }
-
+/* deleted because we're not using it */
 /* Sidebar
 ---------------------------------------------------------------------------------------------------- */
 .sidebar {
