@@ -1459,9 +1459,6 @@ p.entry-meta {
       border-bottom: 2px solid;
       color: #fffee6; }
 
-.fl-rich-text p:last-of-type {
-  margin-bottom: 0; }
-
 /* Team Page
 ---------------------------------------------------------------------------------------------------- */
 /* deleted because we're not using it */
@@ -1775,10 +1772,7 @@ p.entry-meta {
   .genesis-responsive-menu .genesis-nav-menu .sub-menu .sub-menu {
     margin: 0; }
   .site-inner {
-    margin-top: 0;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 60px; }
+    margin-top: 0; }
   .home .site-inner {
     padding: 0; }
   .content,
