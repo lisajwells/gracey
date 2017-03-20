@@ -1862,6 +1862,13 @@ p.entry-meta {
     padding-right: 10px;
   }
 
+  .content {
+    padding: 60px 60px;
+  }
+
+  .sidebar .widget {
+      padding: 60px 40px;
+  }
 }
 
 @media only screen and (max-width: 860px) {
