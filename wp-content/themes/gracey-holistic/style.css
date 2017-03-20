@@ -461,6 +461,7 @@ h3 {
 h4,
 .widgettitle,
 h3.widgettitle {
+  color: #fffee6;
   font-size: 22px;
   font-size: 2.2rem;
   letter-spacing: 0;
@@ -1028,6 +1029,7 @@ img.alignright,
 /* Widgets
 ---------------------------------------------------------------------------------------------------- */
 .widget {
+  color: #fffee6;
   word-wrap: break-word; }
 
 .widget ul > li:last-of-type,
@@ -1539,17 +1541,22 @@ p.entry-meta {
     .schedule-box p a:hover {
       border-bottom: none; }
 
-#menu-menu-of-services {
+#menu-menu-of-services,
+.popular-posts {
   margin-left: 0; }
-  #menu-menu-of-services li {
+  #menu-menu-of-services li,
+  .popular-posts li {
     list-style-type: none; }
-    #menu-menu-of-services li.current-menu-item a {
+    #menu-menu-of-services li.current-menu-item a,
+    .popular-posts li.current-menu-item a {
       border-bottom: 2px solid;
       color: #fffee6; }
-  #menu-menu-of-services a {
+  #menu-menu-of-services a,
+  .popular-posts a {
     border-bottom: none;
     color: #fffee6; }
-    #menu-menu-of-services a:hover {
+    #menu-menu-of-services a:hover,
+    .popular-posts a:hover {
       border-bottom: 2px solid;
       color: #fffee6; }
 

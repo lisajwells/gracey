@@ -375,6 +375,7 @@ h3 {
 h4,
 .widgettitle,
 h3.widgettitle {
+  color: $color__text-light;
   font-size: 22px;
   font-size: 2.2rem;
   letter-spacing: 0;
@@ -1070,6 +1071,7 @@ img.alignright,
 ---------------------------------------------------------------------------------------------------- */
 
 .widget {
+  color: $color__text-light;
   word-wrap: break-word;
 }
 
@@ -1711,11 +1713,11 @@ p.entry-meta {
         border-bottom: none;
       }
 
-
     }
 }
 
-#menu-menu-of-services {
+#menu-menu-of-services,
+.popular-posts {
   margin-left: 0;
 
   li {
