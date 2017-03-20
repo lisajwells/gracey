@@ -1641,7 +1641,7 @@ p.entry-meta {
     padding-left: 10px;
     padding-right: 10px; } }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 860px) {
   .content,
   .footer-widgets-1,
   .footer-widgets-2,
