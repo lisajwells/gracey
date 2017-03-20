@@ -373,9 +373,12 @@ h3 {
 }
 
 h4,
-h2.widgettitle {
+.widgettitle,
+h3.widgettitle {
   font-size: 22px;
   font-size: 2.2rem;
+  letter-spacing: 0;
+  text-transform: none;
 }
 
 .entry-content h4 {
@@ -1113,6 +1116,7 @@ img.alignright,
 
 .popular-posts .widget-wrap {
     background-color: $colorSecondary;
+    padding: 20px;
 }
 
 /* Featured Content
