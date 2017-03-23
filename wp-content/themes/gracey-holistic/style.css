@@ -557,8 +557,8 @@ input[type="select"],
 input[type="submit"],
 .button,
 .ghh .fl-builder-content a.fl-button {
-  background-color: #675b7d;
-  border: 2px solid #352c47;
+  background-color: #779386;
+  border: 2px solid #46564F;
   border-radius: 0;
   color: #fff;
   cursor: pointer;
@@ -625,8 +625,8 @@ input[type="submit"].small {
 .site-container input[type="reset"]:disabled:hover,
 .site-container input[type="submit"]:disabled,
 .site-container input[type="submit"]:disabled:hover {
-  background-color: #675b7d;
-  border-width: 1px solid #352c47;
+  background-color: #779386;
+  border-width: 1px solid #46564F;
   color: #666;
   cursor: not-allowed; }
 
@@ -1532,7 +1532,7 @@ p.entry-meta {
 
 .offscreen-content button,
 .offscreen-content-icon button {
-  background-color: #675b7d;
+  background-color: #779386;
   color: #fff;
   font-size: 20px;
   font-size: 2rem;
@@ -1577,8 +1577,8 @@ p.entry-meta {
   margin-bottom: 20px; }
 
 .footer-widgets .button {
-  background-color: #675b7d;
-  border: 1px solid #352c47;
+  background-color: #779386;
+  border: 1px solid #46564F;
   color: #fff;
   margin-top: 10px; }
 

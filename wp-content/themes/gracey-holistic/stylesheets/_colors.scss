@@ -3,6 +3,7 @@ $colorMainDark: #352c47;
 $colorText: #444;
 $colorBlack: #111;
 $colorSecondary: #779386;
+$colorSecondaryDark: #46564F;
 $colorLight: #fffee6;
 $colorWhite: #fff;
 
@@ -20,9 +21,11 @@ $color__menu-link: $colorWhite;
 $color__menu-link-hover: lighten($colorSecondary, 20%);
 $color__menu-link-focus: lighten($colorSecondary, 20%);
 
-$color__background-button: $colorMainMedium;
+$color__background-button: $colorSecondary;
+// $color__background-button: $colorMainMedium;
 $color__background-button-hover: $colorMainDark;
-$color__border-button: $colorMainDark;
+$color__border-button: $colorSecondaryDark;
+// $color__border-button: $colorMainDark;
 $color__border-button-hover: $colorMainMedium;
 $color__border-button-focus: $colorMainMedium;
 
