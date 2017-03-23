@@ -311,7 +311,7 @@ add_filter( 'genesis_pre_get_option_site_layout', 'ghh_content_sidebar_layout_si
 * @link http://wpsites.net/web-design/change-layout-genesis/
 */
 function ghh_content_sidebar_layout_single_posts( $opt ) {
-if ( is_single() ) {
+if ( is_single() || is_page( 'blog' ) ) {
     $opt = 'content-sidebar';
     return $opt;
 
