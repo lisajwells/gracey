@@ -13,8 +13,10 @@ $color__text-main: $colorText;
 $color__text-light: $colorLight;
 $color__text-button: $colorWhite;
 
-$color__link: $colorMainMedium;
-$color__link-visited: $colorMainMedium;
+$color__link: $colorSecondary;
+$color__link-visited: $colorSecondary;
+// $color__link: $colorMainMedium;
+// $color__link-visited: $colorMainMedium;
 $color__link-hover: $colorMainDark;
 
 $color__menu-link: $colorWhite;

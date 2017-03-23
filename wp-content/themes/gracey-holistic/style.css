@@ -334,7 +334,7 @@ a:focus {
   text-decoration: none; }
 
 .entry-content a {
-  color: #675b7d;
+  color: #779386;
   font-weight: 700;
   text-decoration: none;
   border-bottom: 2px solid #675b7d; }
@@ -1352,7 +1352,7 @@ p.entry-meta {
 
 .archive-pagination a:hover,
 .archive-pagination a:focus {
-  color: #675b7d; }
+  color: #779386; }
 
 .archive-pagination li {
   display: inline; }
