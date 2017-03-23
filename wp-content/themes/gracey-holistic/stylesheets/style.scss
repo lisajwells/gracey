@@ -381,7 +381,7 @@ h3.widgettitle {
 
 .widgettitle,
 h3.widgettitle {
-  color: $color__text-light;
+  // color: $color__text-light;
   letter-spacing: 0;
   text-align: center;
   text-transform: none;
@@ -507,7 +507,7 @@ input[type="submit"],
   -webkit-font-smoothing: antialiased;
   font-weight: 700;
   line-height: 1;
-  margin-top: -20px;
+  // margin-top: -20px;
   padding: 12px 20px;
   text-decoration: none;
   white-space: normal;
@@ -1010,7 +1010,7 @@ img.alignright,
 ---------------------------------------------------------------------------------------------------- */
 
 .widget {
-  color: $color__text-light;
+  // color: $color__text-light;
   line-height: 1.4;
   word-wrap: break-word;
 }
