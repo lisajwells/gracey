@@ -3,6 +3,7 @@ $colorMainDark: #352c47;
 $colorText: #444;
 $colorBlack: #111;
 $colorSecondary: #779386;
+$colorSecondaryDark: #46564F;
 $colorLight: #fffee6;
 $colorWhite: #fff;
 
@@ -12,17 +13,21 @@ $color__text-main: $colorText;
 $color__text-light: $colorLight;
 $color__text-button: $colorWhite;
 
-$color__link: $colorMainMedium;
-$color__link-visited: $colorMainMedium;
+$color__link: $colorSecondary;
+$color__link-visited: $colorSecondary;
+// $color__link: $colorMainMedium;
+// $color__link-visited: $colorMainMedium;
 $color__link-hover: $colorMainDark;
 
 $color__menu-link: $colorWhite;
 $color__menu-link-hover: lighten($colorSecondary, 20%);
 $color__menu-link-focus: lighten($colorSecondary, 20%);
 
-$color__background-button: $colorMainMedium;
+$color__background-button: $colorSecondary;
+// $color__background-button: $colorMainMedium;
 $color__background-button-hover: $colorMainDark;
-$color__border-button: $colorMainDark;
+$color__border-button: $colorSecondaryDark;
+// $color__border-button: $colorMainDark;
 $color__border-button-hover: $colorMainMedium;
 $color__border-button-focus: $colorMainMedium;
 
