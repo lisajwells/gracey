@@ -1730,7 +1730,8 @@ p.entry-meta {
 ---------------------------------------------------------------------------------------------------- */
 
 .footer-widgets {
-  border-top: 1px solid #eee;
+  // border-top: 1px solid #eee;
+  background-color: $colorSecondary;
   font-size: 20px;
   font-size: 2rem;
   clear: both;

@@ -1542,7 +1542,7 @@ p.entry-meta {
 /* Footer Widgets
 ---------------------------------------------------------------------------------------------------- */
 .footer-widgets {
-  border-top: 1px solid #eee;
+  background-color: #779386;
   font-size: 20px;
   font-size: 2rem;
   clear: both; }
