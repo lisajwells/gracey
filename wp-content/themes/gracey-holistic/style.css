@@ -1543,15 +1543,21 @@ p.entry-meta {
 ---------------------------------------------------------------------------------------------------- */
 .footer-widgets {
   background-color: #779386;
+  clear: both;
+  color: #fffee6;
   font-size: 20px;
-  font-size: 2rem;
-  clear: both; }
+  font-size: 2rem; }
 
 .footer-widgets .wrap {
   margin: 0 auto;
   max-width: 1280px;
   padding-left: 60px;
   padding-right: 60px; }
+
+.footer-widgets .fl-icon a {
+  color: #fffee6; }
+  .footer-widgets .fl-icon a:hover {
+    color: #675b7d; }
 
 .footer-widgets .widget-area {
   float: left;
@@ -1571,7 +1577,8 @@ p.entry-meta {
   width: 40%; }
 
 .footer-widgets p {
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  text-align: center; }
 
 .footer-widgets .button {
   background-color: #779386;

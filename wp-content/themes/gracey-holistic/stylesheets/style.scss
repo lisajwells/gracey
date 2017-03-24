@@ -1732,9 +1732,10 @@ p.entry-meta {
 .footer-widgets {
   // border-top: 1px solid #eee;
   background-color: $colorSecondary;
+  clear: both;
+  color: $color__text-light;
   font-size: 20px;
   font-size: 2rem;
-  clear: both;
 }
 
 .footer-widgets .wrap {
@@ -1742,6 +1743,15 @@ p.entry-meta {
   max-width: 1280px;
   padding-left: 60px;
   padding-right: 60px;
+}
+
+.footer-widgets .fl-icon a {
+  color: $color__text-light;
+
+  &:hover {
+    color: $colorMainMedium;
+  }
+
 }
 
 .footer-widgets .widget-area {
@@ -1767,6 +1777,7 @@ p.entry-meta {
 
 .footer-widgets p {
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .footer-widgets .button {
