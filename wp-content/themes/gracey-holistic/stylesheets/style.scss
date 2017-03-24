@@ -157,6 +157,10 @@ input[type="search"]{
   color: $colorWhite;
 }
 
+.left {
+  text-align: left;
+}
+
 /* Defaults
 ---------------------------------------------------------------------------------------------------- */
 
@@ -1746,12 +1750,26 @@ p.entry-meta {
 }
 
 .footer-widgets .fl-icon a {
+
   color: $color__text-light;
 
   &:hover {
     color: $colorMainMedium;
   }
 
+}
+
+.fl-builder-content-271 .fl-module-content {
+  margin-top: 0;
+}
+
+.footer-widgets span.fl-icon {
+  margin-top: 0;
+}
+
+.mailchimp-subscribe-footer .widgettitle,
+.footer-widgets .mailchimp-subscribe-footer p {
+  text-align: left;
 }
 
 .footer-widgets .widget-area {

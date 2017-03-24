@@ -282,6 +282,9 @@ input[type="search"] {
 .white-text {
   color: #fff; }
 
+.left {
+  text-align: left; }
+
 /* Defaults
 ---------------------------------------------------------------------------------------------------- */
 /* Typographical Elements
@@ -1558,6 +1561,16 @@ p.entry-meta {
   color: #fffee6; }
   .footer-widgets .fl-icon a:hover {
     color: #675b7d; }
+
+.fl-builder-content-271 .fl-module-content {
+  margin-top: 0; }
+
+.footer-widgets span.fl-icon {
+  margin-top: 0; }
+
+.mailchimp-subscribe-footer .widgettitle,
+.footer-widgets .mailchimp-subscribe-footer p {
+  text-align: left; }
 
 .footer-widgets .widget-area {
   float: left;
