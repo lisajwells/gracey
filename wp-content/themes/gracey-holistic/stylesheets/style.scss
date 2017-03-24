@@ -2148,3 +2148,16 @@ p.entry-meta {
   }
 
 }
+
+::-webkit-input-placeholder {
+  color: #444;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #444;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+  color: #444;
+}
+:-ms-input-placeholder {
+  color: #444;
+}

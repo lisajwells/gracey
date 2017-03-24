@@ -329,3 +329,14 @@ function ghh_footer_copyright_text () {
 
 	return $copyright;
 }
+
+// Translate the word Name on the Subscribe form module
+function my_text_with_context_translations( $translated, $text, $context, $domain ) {
+  if ( 'fl-builder' == $domain ) {
+    if ( 'Name' == $text && 'First and last name.' == $context ) {
+      $translated = 'First Name';
+    }
+  }
+  return $translated;
+}
+add_filter( 'gettext_with_context', 'my_text_with_context_translations', 10, 4 );
