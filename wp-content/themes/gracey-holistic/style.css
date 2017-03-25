@@ -568,8 +568,8 @@ input[type="submit"],
   color: #fff;
   cursor: pointer;
   font-family: 'Cardo', serif;
-  font-size: 20px;
-  font-size: 2rem;
+  font-size: 18px;
+  font-size: 1.8rem;
   -webkit-font-smoothing: antialiased;
   font-weight: 700;
   line-height: 1;
