@@ -295,14 +295,14 @@ html {
 
 /* Chrome fix */
 body > div {
-  font-size: 1.8rem; }
+  font-size: 1.6rem; }
 
 body {
   background-color: #fff;
   color: #444;
   font-family: 'Lato', sans-serif;
-  font-size: 18px;
-  font-size: 1.8rem;
+  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 400;
   line-height: 1.75;
   margin: 0; }
@@ -430,6 +430,9 @@ blockquote:after {
   float: right;
   font-size: 24pt;
   width: 54px; }
+
+.fl-module-content {
+  margin: 10px; }
 
 /* Headings
 --------------------------------------------- */
@@ -1238,6 +1241,16 @@ img.alignright,
 .genesis-nav-menu .menu-item:hover > .sub-menu {
   left: auto;
   opacity: 1; }
+
+#menu-item-185 a {
+  color: #fffee6; }
+  #menu-item-185 a:hover {
+    color: #46564F; }
+
+#menu-item-185 a span {
+  border: 1px #eee solid;
+  padding: 8px;
+  background: #779386; }
 
 /* Accessible Menu
 --------------------------------------------- */
