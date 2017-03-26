@@ -2083,6 +2083,11 @@ p.entry-meta {
     color: $color__menu-link-hover;
   }
 
+  .genesis-responsive-menu .genesis-nav-menu .sub-menu a:focus,
+  .genesis-responsive-menu .genesis-nav-menu .sub-menu a:hover {
+    color: $colorSecondaryDark;
+  }
+
   .genesis-responsive-menu .genesis-nav-menu a:focus {
     color: $color__menu-link-hover;
     outline: thin solid #ccc;

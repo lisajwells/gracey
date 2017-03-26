@@ -1785,6 +1785,9 @@ p.entry-meta {
   .genesis-responsive-menu .genesis-nav-menu a:focus,
   .genesis-responsive-menu .genesis-nav-menu a:hover {
     color: #b0c0b9; }
+  .genesis-responsive-menu .genesis-nav-menu .sub-menu a:focus,
+  .genesis-responsive-menu .genesis-nav-menu .sub-menu a:hover {
+    color: #46564F; }
   .genesis-responsive-menu .genesis-nav-menu a:focus {
     color: #b0c0b9;
     outline: thin solid #ccc;
