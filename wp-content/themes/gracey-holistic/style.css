@@ -724,11 +724,13 @@ th:first-child {
 /* Content */
 .content {
   float: right;
-  padding: 80px 60px;
+  padding: 40px 60px;
   width: 65%; }
 
 .content-sidebar .content {
-  float: left; }
+  float: left;
+  padding: 40px 60px;
+  width: 70%; }
 
 .sidebar-content .content {
   border-left: 1px solid #eee; }
