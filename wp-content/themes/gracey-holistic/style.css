@@ -729,7 +729,7 @@ th:first-child {
 
 .content-sidebar .content {
   float: left;
-  padding: 40px 60px;
+  padding: 40px 0;
   width: 70%; }
 
 .sidebar-content .content {
