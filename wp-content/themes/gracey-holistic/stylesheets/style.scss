@@ -1323,10 +1323,15 @@ img.alignright,
   background-color: $colorLight;
   // border: 1px solid #eee;
   border-top: 0;
+  color: $colorSecondary;
   padding: 20px;
   position: relative;
   width: 200px;
   word-wrap: break-word;
+
+  &:hover {
+    color: $colorSecondaryDark;
+  }
 }
 
 .genesis-nav-menu .sub-menu .sub-menu {
