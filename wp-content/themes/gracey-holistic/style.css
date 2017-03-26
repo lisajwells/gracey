@@ -755,7 +755,7 @@ th:first-child {
 /* Primary Sidebar */
 .sidebar-primary {
   float: right;
-  width: 35%; }
+  width: 30%; }
 
 .sidebar-content .sidebar-primary {
   float: left; }
