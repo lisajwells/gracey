@@ -333,7 +333,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #352c47;
+  color: #675b7d;
   text-decoration: none; }
 
 .entry-content p a {
@@ -354,7 +354,7 @@ a:focus {
 
 .entry-content a:hover,
 .entry-content a:focus {
-  border-bottom: 2px solid #352c47; }
+  color: #675b7d; }
 
 p {
   margin: 0 0 30px;
@@ -911,7 +911,7 @@ th:first-child {
 
 .entry-title a:hover,
 .entry-title a:focus {
-  color: #352c47; }
+  color: #675b7d; }
 
 .widget-title {
   font-family: 'Cardo', serif;
@@ -1069,7 +1069,7 @@ img.alignright,
 .footer-widgets .featured-content .entry-meta a:focus,
 .sidebar .featured-content .entry-meta a:hover,
 .sidebar .featured-content .entry-meta a:focus {
-  color: #352c47; }
+  color: #675b7d; }
 
 .footer-widgets .featured-content .entry-image,
 .sidebar .featured-content .entry-image {
@@ -1398,7 +1398,7 @@ p.entry-meta {
 .archive-pagination li a:focus,
 .archive-pagination li.active a {
   background-color: #fff;
-  color: #352c47; }
+  color: #675b7d; }
 
 /* Comments
 --------------------------------------------- */
@@ -1654,7 +1654,7 @@ p.entry-meta {
 
 .site-footer a:hover,
 .site-footer a:focus {
-  color: #352c47; }
+  color: #675b7d; }
 
 /* Fadein Effect
 ---------------------------------------------------------------------------------------------------- */

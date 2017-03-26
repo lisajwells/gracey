@@ -244,7 +244,7 @@ a:focus {
 
 .entry-content a:hover,
 .entry-content a:focus {
-  border-bottom: 2px solid $color__link-hover;
+  color: $color__link-hover;
 }
 
 p {
