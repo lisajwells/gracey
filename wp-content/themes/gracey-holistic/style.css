@@ -1462,28 +1462,26 @@ p.entry-meta {
   font-family: 'Cardo', serif;
   padding: .4em; }
 
-#menu-menu-of-services,
-#menu-about-menu,
+.sidebar-menu,
 .popular-posts {
   margin-left: 0; }
-  #menu-menu-of-services li,
-  #menu-about-menu li,
-  .popular-posts li {
+  .sidebar-menu ul,
+  .popular-posts ul {
+    margin-left: 0; }
+  .sidebar-menu ul > li,
+  .popular-posts ul > li {
     list-style-type: none;
     text-align: center; }
-    #menu-menu-of-services li.current-menu-item a,
-    #menu-about-menu li.current-menu-item a,
-    .popular-posts li.current-menu-item a {
+    .sidebar-menu ul > li.current-menu-item a,
+    .popular-posts ul > li.current-menu-item a {
       border-bottom: 2px solid;
       color: #444; }
-  #menu-menu-of-services a,
-  #menu-about-menu a,
+  .sidebar-menu a,
   .popular-posts a {
     border-bottom: none;
     color: #444;
     text-transform: uppercase; }
-    #menu-menu-of-services a:hover,
-    #menu-about-menu a:hover,
+    .sidebar-menu a:hover,
     .popular-posts a:hover {
       border-bottom: 2px solid;
       color: #444; }

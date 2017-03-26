@@ -1651,14 +1651,17 @@ p.entry-meta {
   padding: .4em;
 }
 
-#menu-menu-of-services,
-#menu-about-menu,
+.sidebar-menu,
 .popular-posts {
   margin-left: 0;
 
-  li {
+  ul {
+    margin-left: 0
+  }
+
+  ul > li {
     list-style-type: none;
-      text-align: center;
+    text-align: center;
 
     &.current-menu-item a {
       border-bottom: 2px solid;
