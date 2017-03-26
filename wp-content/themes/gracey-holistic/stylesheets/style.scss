@@ -1306,7 +1306,7 @@ img.alignright,
 .genesis-nav-menu .sub-menu .current-menu-item > a,
 .genesis-nav-menu .sub-menu .current-menu-item > a:hover,
 .genesis-nav-menu .sub-menu .current-menu-item > a:focus {
-  color: $colorSecondaryDark;
+  color: $colorMainDark;
   text-decoration: none;
 }
 
@@ -1325,17 +1325,17 @@ img.alignright,
 }
 
 .genesis-nav-menu .sub-menu a {
-  background-color: $colorLight;
+  background-color: $colorSecondary;
   // border: 1px solid #eee;
   border-top: 0;
-  color: $colorSecondary;
+  color: $colorLight;
   padding: 20px;
   position: relative;
   width: 200px;
   word-wrap: break-word;
 
   &:hover, &:focus {
-    color: $colorSecondaryDark;
+    color: $colorMainMedium;
   }
 }
 

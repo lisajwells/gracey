@@ -1214,7 +1214,7 @@ img.alignright,
 .genesis-nav-menu .sub-menu .current-menu-item > a,
 .genesis-nav-menu .sub-menu .current-menu-item > a:hover,
 .genesis-nav-menu .sub-menu .current-menu-item > a:focus {
-  color: #46564F;
+  color: #352c47;
   text-decoration: none; }
 
 .genesis-nav-menu .sub-menu {
@@ -1228,15 +1228,15 @@ img.alignright,
   z-index: 99; }
 
 .genesis-nav-menu .sub-menu a {
-  background-color: #fffee6;
+  background-color: #779386;
   border-top: 0;
-  color: #779386;
+  color: #fffee6;
   padding: 20px;
   position: relative;
   width: 200px;
   word-wrap: break-word; }
   .genesis-nav-menu .sub-menu a:hover, .genesis-nav-menu .sub-menu a:focus {
-    color: #46564F; }
+    color: #675b7d; }
 
 .genesis-nav-menu .sub-menu .sub-menu {
   margin: -52px 0 0 199px; }
