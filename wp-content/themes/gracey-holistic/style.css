@@ -565,7 +565,7 @@ input[type="submit"],
 .ghh .fl-builder-content a.fl-button {
   background-color: #779386;
   border: 2px solid #46564F;
-  border-radius: 0;
+  border-radius: 0 !important;
   color: #fff;
   cursor: pointer;
   font-family: 'Cardo', serif;
@@ -642,6 +642,9 @@ input[type="search"]::-webkit-search-results-button {
 /* BB Forms */
 .ghh .fl-form-button a.fl-button {
   background-color: #675b7d; }
+
+.ghh .fl-module-subscribe-form .fl-module-content .fl-subscribe-form .fl-form-field input {
+  border-radius: 0; }
 
 /* Tables
 --------------------------------------------- */
@@ -731,7 +734,7 @@ th:first-child {
 .content-sidebar .content {
   float: left;
   padding: 40px 0;
-  width: 70%; }
+  width: 66%; }
 
 .sidebar-content .content {
   border-left: 1px solid #eee; }
@@ -760,10 +763,14 @@ th:first-child {
   width: 30%;
   border: 2px solid #675b7d;
   padding: 20px;
-  margin-top: 50px; }
+  margin-top: 50px;
+  min-height: 0 !important; }
 
 .sidebar-content .sidebar-primary {
   float: left; }
+
+.sidebar-primary .fl-builder-module-template {
+  padding: 0; }
 
 /* Column Classes
 --------------------------------------------- */
@@ -1024,10 +1031,6 @@ img.alignright,
 .widget_calendar td,
 .widget_calendar th {
   text-align: center; }
-
-.popular-posts .widget-wrap {
-  background-color: #779386;
-  padding: 20px; }
 
 /* Featured Content
 --------------------------------------------- */
@@ -1305,9 +1308,6 @@ img.alignright,
   margin-bottom: 60px;
   padding-bottom: 30px; }
 
-.page .content .entry {
-  border-bottom: none; }
-
 .lead-capture-page .entry {
   margin-bottom: 0; }
 
@@ -1466,28 +1466,37 @@ p.entry-meta {
   padding: .4em; }
 
 .sidebar-menu,
-.popular-posts {
+.popular-posts,
+.widget_nav_menu {
   margin-left: 0; }
   .sidebar-menu ul,
-  .popular-posts ul {
+  .popular-posts ul,
+  .widget_nav_menu ul {
     margin-left: 0; }
   .sidebar-menu ul > li,
-  .popular-posts ul > li {
+  .popular-posts ul > li,
+  .widget_nav_menu ul > li {
     list-style-type: none;
     text-align: center; }
     .sidebar-menu ul > li.current-menu-item a,
-    .popular-posts ul > li.current-menu-item a {
+    .popular-posts ul > li.current-menu-item a,
+    .widget_nav_menu ul > li.current-menu-item a {
       border-bottom: 2px solid;
       color: #444; }
   .sidebar-menu a,
-  .popular-posts a {
+  .popular-posts a,
+  .widget_nav_menu a {
     border-bottom: none;
     color: #444;
     text-transform: uppercase; }
     .sidebar-menu a:hover,
-    .popular-posts a:hover {
+    .popular-posts a:hover,
+    .widget_nav_menu a:hover {
       border-bottom: 2px solid;
       color: #444; }
+
+.widget_nav_menu {
+  margin-top: 40px; }
 
 /* Team Page
 ---------------------------------------------------------------------------------------------------- */
@@ -1497,9 +1506,6 @@ p.entry-meta {
 .sidebar {
   font-size: 16px;
   font-size: 1.6rem; }
-
-.sidebar .widget {
-  padding: 20px 0; }
 
 /* Offscreen Content
 ---------------------------------------------------------------------------------------------------- */
