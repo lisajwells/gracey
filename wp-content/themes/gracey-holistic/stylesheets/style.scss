@@ -1298,10 +1298,15 @@ img.alignright,
 
 .genesis-nav-menu a:hover,
 .genesis-nav-menu a:focus,
-.genesis-nav-menu .current-menu-item > a,
+.genesis-nav-menu .current-menu-item > a {
+  color: $color__menu-link-hover;
+  text-decoration: none;
+}
+
+.genesis-nav-menu .sub-menu .current-menu-item > a,
 .genesis-nav-menu .sub-menu .current-menu-item > a:hover,
 .genesis-nav-menu .sub-menu .current-menu-item > a:focus {
-  color: $color__menu-link-hover;
+  color: $colorSecondaryDark;
   text-decoration: none;
 }
 
@@ -1329,7 +1334,7 @@ img.alignright,
   width: 200px;
   word-wrap: break-word;
 
-  &:hover {
+  &:hover, &:focus {
     color: $colorSecondaryDark;
   }
 }

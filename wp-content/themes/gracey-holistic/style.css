@@ -1207,10 +1207,14 @@ img.alignright,
 
 .genesis-nav-menu a:hover,
 .genesis-nav-menu a:focus,
-.genesis-nav-menu .current-menu-item > a,
+.genesis-nav-menu .current-menu-item > a {
+  color: #b0c0b9;
+  text-decoration: none; }
+
+.genesis-nav-menu .sub-menu .current-menu-item > a,
 .genesis-nav-menu .sub-menu .current-menu-item > a:hover,
 .genesis-nav-menu .sub-menu .current-menu-item > a:focus {
-  color: #b0c0b9;
+  color: #46564F;
   text-decoration: none; }
 
 .genesis-nav-menu .sub-menu {
@@ -1231,7 +1235,7 @@ img.alignright,
   position: relative;
   width: 200px;
   word-wrap: break-word; }
-  .genesis-nav-menu .sub-menu a:hover {
+  .genesis-nav-menu .sub-menu a:hover, .genesis-nav-menu .sub-menu a:focus {
     color: #46564F; }
 
 .genesis-nav-menu .sub-menu .sub-menu {
