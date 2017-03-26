@@ -1463,22 +1463,27 @@ p.entry-meta {
   padding: .4em; }
 
 #menu-menu-of-services,
+#menu-about-menu,
 .popular-posts {
   margin-left: 0; }
   #menu-menu-of-services li,
+  #menu-about-menu li,
   .popular-posts li {
     list-style-type: none;
     text-align: center; }
     #menu-menu-of-services li.current-menu-item a,
+    #menu-about-menu li.current-menu-item a,
     .popular-posts li.current-menu-item a {
       border-bottom: 2px solid;
       color: #444; }
   #menu-menu-of-services a,
+  #menu-about-menu a,
   .popular-posts a {
     border-bottom: none;
     color: #444;
     text-transform: uppercase; }
     #menu-menu-of-services a:hover,
+    #menu-about-menu a:hover,
     .popular-posts a:hover {
       border-bottom: 2px solid;
       color: #444; }
