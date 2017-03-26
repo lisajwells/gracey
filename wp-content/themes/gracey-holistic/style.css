@@ -1565,8 +1565,8 @@ p.entry-meta {
   background-color: #779386;
   clear: both;
   color: #fffee6;
-  font-size: 20px;
-  font-size: 2rem; }
+  font-size: 16px;
+  font-size: 1.6rem; }
 
 .footer-widgets .wrap {
   margin: 0 auto;
