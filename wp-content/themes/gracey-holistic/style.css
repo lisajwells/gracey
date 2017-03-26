@@ -757,7 +757,10 @@ th:first-child {
 /* Primary Sidebar */
 .sidebar-primary {
   float: right;
-  width: 30%; }
+  width: 30%;
+  border: 2px solid #675b7d;
+  padding: 20px;
+  margin-top: 50px; }
 
 .sidebar-content .sidebar-primary {
   float: left; }
@@ -1493,8 +1496,7 @@ p.entry-meta {
 ---------------------------------------------------------------------------------------------------- */
 .sidebar {
   font-size: 16px;
-  font-size: 1.6rem;
-  padding-left: 40px; }
+  font-size: 1.6rem; }
 
 .sidebar .widget {
   padding: 20px 0; }

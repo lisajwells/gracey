@@ -741,6 +741,9 @@ th:first-child {
 .sidebar-primary {
   float: right;
   width: 30%;
+  border: 2px solid $colorMainMedium;
+  padding: 20px;
+  margin-top: 50px;
 }
 
 .sidebar-content .sidebar-primary {
@@ -1698,7 +1701,7 @@ p.entry-meta {
 .sidebar {
   font-size: 16px;
   font-size: 1.6rem;
-  padding-left: 40px;
+  // padding-left: 40px;
 }
 
 .sidebar .widget {
