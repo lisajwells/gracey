@@ -1489,8 +1489,8 @@ p.entry-meta {
 /* Sidebar
 ---------------------------------------------------------------------------------------------------- */
 .sidebar {
-  font-size: 20px;
-  font-size: 2rem; }
+  font-size: 16px;
+  font-size: 1.6rem; }
 
 .sidebar .widget {
   border-bottom: 1px solid #eee;
