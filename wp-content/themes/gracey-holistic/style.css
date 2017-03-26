@@ -1490,11 +1490,11 @@ p.entry-meta {
 ---------------------------------------------------------------------------------------------------- */
 .sidebar {
   font-size: 16px;
-  font-size: 1.6rem; }
+  font-size: 1.6rem;
+  padding-left: 40px; }
 
 .sidebar .widget {
-  border-bottom: 1px solid #eee;
-  padding: 50px 60px 60px; }
+  padding: 20px 0; }
 
 /* Offscreen Content
 ---------------------------------------------------------------------------------------------------- */
