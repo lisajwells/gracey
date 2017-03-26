@@ -731,6 +731,10 @@ th:first-child {
   padding: 40px 60px;
   width: 65%; }
 
+.content-sidebar .content-sidebar-wrap {
+  margin: 0 auto;
+  max-width: 90%; }
+
 .content-sidebar .content {
   float: left;
   padding: 40px 0;
@@ -764,6 +768,7 @@ th:first-child {
   border: 2px solid #675b7d;
   padding: 20px;
   margin-top: 50px;
+  margin-bottom: 40px;
   min-height: 0 !important; }
 
 .sidebar-content .sidebar-primary {
@@ -1304,9 +1309,11 @@ img.alignright,
 --------------------------------------------- */
 .entry,
 .page.page-template-page_blog .content .entry {
-  border-bottom: 1px solid #eee;
   margin-bottom: 60px;
   padding-bottom: 30px; }
+
+.page.page-template-page_blog .content .entry {
+  border-bottom: 1px solid #eee; }
 
 .lead-capture-page .entry {
   margin-bottom: 0; }
@@ -1693,9 +1700,7 @@ p.entry-meta {
     padding-left: 10px;
     padding-right: 10px; }
   .content {
-    padding: 60px 60px; }
-  .sidebar .widget {
-    padding: 60px 40px; } }
+    padding: 60px 60px; } }
 
 @media only screen and (max-width: 860px) {
   .content,
@@ -1838,16 +1843,19 @@ p.entry-meta {
     float: none;
     padding: 0; }
   .content-sidebar .content {
-    border-right: none; }
-  .sidebar-content .content {
-    border-left: none; }
+    border-left: none;
+    border-right: none;
+    width: 100%; }
+  .content-sidebar .content-sidebar-wrap {
+    margin: 20px auto; }
   .sidebar .widget {
     padding: 5%; }
   .sidebar .widget:last-child {
     border-bottom: none; }
-  .footer-widgets-2 {
-    padding-left: 0;
-    padding-right: 0; }
+  .footer-widgets .widget-area {
+    margin: 0 auto;
+    padding-bottom: 0;
+    width: 100%; }
   .site-footer {
     padding-bottom: 40px;
     padding-top: 40px; }
