@@ -564,7 +564,8 @@ input[type="reset"],
 input[type="select"],
 input[type="submit"],
 .button,
-.ghh .fl-builder-content a.fl-button {
+.ghh .fl-builder-content a.fl-button,
+.button.sidebarButton {
 /*  background-color: #779386;
   border: 2px solid #46564F;*/
   background-color: #675b7d;
@@ -606,7 +607,9 @@ input:focus[type="button"],
 input:focus[type="reset"],
 input:focus[type="submit"],
 .button:focus,
-.ghh .fl-builder-content a.fl-button:focus {
+.ghh .fl-builder-content a.fl-button:focus,
+.button.sidebarButton:hover,
+.button.sidebarButton:focus {
   background-color: #352c47;
   border: 2px solid #675b7d; }
 
@@ -1724,12 +1727,12 @@ p.entry-meta {
 .site-footer a:focus {
   color: #675b7d; }
 
-.sidebarButton {
+/*.sidebarButton {
     background-color:#675b7d !important;
     text-align:center;
     width:100%;
 }
-
+*/
 .creditline p {
   margin-bottom: 6px;
 }
