@@ -1502,43 +1502,50 @@ p.entry-meta {
   margin-left: 0;
 }
 
-  .sidebar-menu ul,
-  .popular-posts ul,
-  .widget_nav_menu ul {
-    margin-left: 0;
-  }
+.sidebar-menu ul,
+.popular-posts ul,
+.widget_nav_menu ul {
+  margin-left: 0;
+}
 
-  .sidebar-menu ul > li,
-  .popular-posts ul > li,
-  .widget_nav_menu ul > li {
-    list-style-type: none;
-    text-align: center;
-  }
+.sidebar-menu ul > li,
+.popular-posts ul > li,
+.widget_nav_menu ul > li {
+  list-style-type: none;
+  text-align: center;
+}
 
-    .sidebar-menu ul > li.current-menu-item a,
-    .popular-posts ul > li.current-menu-item a,
-    .widget_nav_menu ul > li.current-menu-item a {
-      color: #444;
-      font-weight:700;
-    }
+.sidebar-menu ul > li.current-menu-item a,
+.popular-posts ul > li.current-menu-item a,
+.widget_nav_menu ul > li.current-menu-item a {
+  color: #444;
+  font-weight:700;
+}
 
-  .sidebar-menu a,
-  .popular-posts a,
-  .widget_nav_menu a {
-    border-bottom: none;
-    color: #444;
-    font-weight:300;
-    text-transform: uppercase;
-  }
-    .sidebar-menu a:hover,
-    .popular-posts a:hover,
-    .widget_nav_menu a:hover {
-      border-bottom: 2px solid;
-      color: #444;
-    }
+.sidebar-menu a,
+.popular-posts a,
+.widget_nav_menu a {
+  border-bottom: none;
+  color: #444;
+  font-weight:300;
+  text-transform: uppercase;
+}
+
+.sidebar-menu a:hover,
+.popular-posts a:hover,
+.widget_nav_menu a:hover {
+  border-bottom: 2px solid;
+  color: #444;
+}
 
 .widget_nav_menu {
   margin-top: 40px; }
+
+/* Front Page */
+
+.fl-node-58c5aedb5bcc0 { /* section 2 image */
+    max-width: 300px;
+}
 
 /* Team Page
 ---------------------------------------------------------------------------------------------------- */
@@ -1746,7 +1753,13 @@ p.entry-meta {
     opacity: 1; } }
 
 /* Media Queries
----------------------------------------------------------------------------------------------------- */
+------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
 @media only screen and (max-width: 1023px) {
   .genesis-nav-menu a {
     padding-left: 10px;
