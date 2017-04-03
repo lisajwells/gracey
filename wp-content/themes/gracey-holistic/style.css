@@ -452,8 +452,8 @@ h1 {
   font-size: 4.6rem; }
 
 h2 {
-  font-size: 34px;
-  font-size: 3.4rem; }
+  font-size: 30px;
+  font-size: 3rem; }
 
 h3 {
   font-size: 26px;
@@ -468,8 +468,8 @@ h4,
 .widgettitle,
 h2.widgettitle,
 h3.widgettitle {
-  font-size: 22px;
-  font-size: 2.2rem; }
+  font-size: 26px;
+  font-size: 2.6rem; }
 
 .widgettitle,
 h3.widgettitle {
@@ -563,8 +563,10 @@ input[type="select"],
 input[type="submit"],
 .button,
 .ghh .fl-builder-content a.fl-button {
-  background-color: #779386;
-  border: 2px solid #46564F;
+/*  background-color: #779386;
+  border: 2px solid #46564F;*/
+  background-color: #675b7d;
+  border: 2px solid #2B2636;
   border-radius: 0 !important;
   color: #fff;
   cursor: pointer;
@@ -765,9 +767,9 @@ th:first-child {
 .sidebar-primary {
   float: right;
   width: 30%;
-  border: 2px solid #675b7d;
+  border: 4px double #675b7d;
   padding: 20px;
-  margin-top: 50px;
+  margin-top: 117px;
   margin-bottom: 40px;
   min-height: 0 !important; }
 
@@ -776,6 +778,21 @@ th:first-child {
 
 .sidebar-primary .fl-builder-module-template {
   padding: 0; }
+
+#text-4,
+.fl-node-58d8ea534f789 > .fl-row-content-wrap,
+.schedule-box {
+    background: #779386;
+    padding: 20px;
+    color: #fff;
+}
+.schedule-box {
+    margin-top:30px;
+    padding-top:10px;
+}
+.schedule-box a {
+    color:#fff !important;
+}
 
 /* Column Classes
 --------------------------------------------- */
@@ -1207,8 +1224,8 @@ img.alignright,
   color: #fff;
   display: block;
   font-family: 'Lato', sans-serif;
-  font-size: 10px;
-  font-size: 1rem;
+  font-size: 12px;
+  font-size: 1.2rem;
   font-weight: 400;
   letter-spacing: 2px;
   padding: 30px 20px;
@@ -1488,14 +1505,15 @@ p.entry-meta {
     .sidebar-menu ul > li.current-menu-item a,
     .popular-posts ul > li.current-menu-item a,
     .widget_nav_menu ul > li.current-menu-item a {
-      border-bottom: 2px solid;
+      font-weight:700;
       color: #444; }
   .sidebar-menu a,
   .popular-posts a,
   .widget_nav_menu a {
     border-bottom: none;
     color: #444;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-weight:300; }
     .sidebar-menu a:hover,
     .popular-posts a:hover,
     .widget_nav_menu a:hover {
@@ -1647,14 +1665,17 @@ p.entry-meta {
 .footer-widgets .button:hover {
   background-color: #352c47;
   border: 1px solid #675b7d; }
-
+.follow {
+  margin-top:40px;
+  margin-bottom:-10px;
+}
 /* Site Footer
 ---------------------------------------------------------------------------------------------------- */
 .site-footer {
   background-color: #779386;
   color: #fffee6;
   line-height: 1;
-  padding: 60px 0;
+  padding-bottom: 60px;
   text-align: center; }
 
 .site-footer .wrap {
@@ -1664,8 +1685,8 @@ p.entry-meta {
   padding-right: 60px; }
 
 .site-footer p {
-  font-size: 18px;
-  font-size: 1.8rem;
+  font-size: 14px;
+  font-size: 1.4rem;
   margin-bottom: 0; }
 
 .site-footer a {
@@ -1675,6 +1696,11 @@ p.entry-meta {
 .site-footer a:focus {
   color: #675b7d; }
 
+.sidebarButton {
+    background-color:#675b7d !important;
+    width:100%;
+    text-align:center;
+}
 /* Fadein Effect
 ---------------------------------------------------------------------------------------------------- */
 .site-container {
