@@ -1547,6 +1547,7 @@ p.entry-meta {
     max-width: 300px;
 }
 
+
 /* Team Page
 ---------------------------------------------------------------------------------------------------- */
 /* deleted because we're not using it */
@@ -1945,6 +1946,15 @@ p.entry-meta {
   .site-footer .genesis-nav-menu a {
     padding-left: 10px;
     padding-right: 10px; } }
+
+@media only screen and (max-width: 768px) {
+
+  .fl-col-group.fl-node-58c5bd5dabcd5.fl-col-group-custom-width { /* front-page section 3 nav images */
+      max-width: 300px;
+      margin: 30px auto;
+  }
+
+}
 
 @media only screen and (max-width: 600px) {
   .after-entry .enews-widget,
