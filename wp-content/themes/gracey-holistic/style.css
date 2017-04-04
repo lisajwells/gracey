@@ -54,6 +54,7 @@
     - Comments
   - Beaver Builder Content
   - Team Page
+  - Contact Page
   - Sidebar
   - Offscreen Content
   - Footer Wodgets
@@ -1550,6 +1551,22 @@ p.entry-meta {
     max-width: 300px;
 }
 
+/* Contact Page
+---------------------------------------------------------------------------------------------------- */
+
+#item-vfb-1,
+#item-vfb-2 {
+    border: none;
+    padding: 0;
+}
+
+ul.vfb-section {
+  margin: 0;
+}
+
+ul.vfb-section input {
+  padding: 4px;
+}
 
 /* Team Page
 ---------------------------------------------------------------------------------------------------- */
