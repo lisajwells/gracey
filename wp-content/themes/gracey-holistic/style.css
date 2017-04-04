@@ -566,7 +566,8 @@ input[type="select"],
 input[type="submit"],
 .button,
 .ghh .fl-builder-content a.fl-button,
-.button.sidebarButton {
+.button.sidebarButton,
+.vfb-item .vfb-submit {
 /*  background-color: #779386;
   border: 2px solid #46564F;*/
   background-color: #675b7d;
@@ -610,7 +611,9 @@ input:focus[type="submit"],
 .button:focus,
 .ghh .fl-builder-content a.fl-button:focus,
 .button.sidebarButton:hover,
-.button.sidebarButton:focus {
+.button.sidebarButton:focus,
+.vfb-item .vfb-submit:hover,
+.vfb-item .vfb-submit:focus {
   background-color: #352c47;
   border: 2px solid #675b7d; }
 
@@ -1568,6 +1571,10 @@ ul.vfb-section input {
   padding: 4px;
 }
 
+.page-id-30 .fl-module-map {
+    max-width: 320px;
+}
+
 /* Team Page
 ---------------------------------------------------------------------------------------------------- */
 /* deleted because we're not using it */
@@ -1972,6 +1979,10 @@ ul.vfb-section input {
   .fl-col-group.fl-node-58c5bd5dabcd5.fl-col-group-custom-width { /* front-page section 3 nav images */
       max-width: 400px;
       margin: 30px auto 0;
+  }
+
+  .full-width-content .content {
+    padding: 40px 20px;
   }
 
 }
