@@ -1540,7 +1540,8 @@ p.entry-meta {
 .sidebar-menu ul > li.current-menu-item a,
 .popular-posts ul > li.current-menu-item a,
 .widget_nav_menu ul > li.current-menu-item a {
-  color: #444;
+  color: #779386;
+  /*color: #444;*/
   font-weight:700;
 }
 
@@ -1548,7 +1549,8 @@ p.entry-meta {
 .popular-posts a,
 .widget_nav_menu a {
   border-bottom: none;
-  color: #444;
+  color: #779386;
+  /*color: #444;*/
   font-weight:300;
   text-transform: uppercase;
 }
@@ -1556,8 +1558,8 @@ p.entry-meta {
 .sidebar-menu a:hover,
 .popular-posts a:hover,
 .widget_nav_menu a:hover {
-  border-bottom: 2px solid;
-  color: #444;
+  border-bottom: 2px solid #675b7d;
+  color: #779386;
 }
 
 .widget_nav_menu {
@@ -1695,11 +1697,11 @@ ul.vfb-section input {
 .footer-widgets span.fl-icon {
   margin-top: 0; }
 
-.mailchimp-subscribe-footer .widgettitle,
-.footer-widgets .mailchimp-subscribe-footer p {
+.active-camp-subscribe-footer .widgettitle,
+.footer-widgets .active-camp-subscribe-footer p {
   text-align: left; }
 
-.mailchimp-subscribe-footer .widgettitle {
+.active-camp-subscribe-footer .widgettitle {
   margin-bottom: 12px; }
 
 .footer-widgets .widget-area {
