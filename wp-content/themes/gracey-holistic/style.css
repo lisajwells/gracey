@@ -69,6 +69,16 @@
 /*
 font-family: 'Cardo', serif; 700
 font-family: 'Lato', sans-serif; 400,700
+
+$colorMainMedium: #675b7d;
+$colorMainDark: #352c47;
+$colorText: #444;
+$colorBlack: #111;
+$colorSecondary: #779386;
+$colorSecondaryDark: #46564F;
+$colorLight: #fffee6;
+$colorWhite: #fff;
+
 */
 /* HTML5 Reset
 ---------------------------------------------------------------------------------------------------- */
