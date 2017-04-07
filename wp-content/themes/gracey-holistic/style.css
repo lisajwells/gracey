@@ -578,10 +578,10 @@ input[type="submit"],
 .ghh .fl-builder-content a.fl-button,
 .button.sidebarButton,
 .vfb-item .vfb-submit {
-/*  background-color: #779386;
-  border: 2px solid #46564F;*/
-  background-color: #675b7d;
-  border: 2px solid #2B2636;
+  background-color: #779386;
+  /*border: 2px solid #46564F;*/
+/*  background-color: #675b7d; */
+  border: 2px solid #675b7d;
   border-radius: 0 !important;
   color: #fff;
   cursor: pointer;
