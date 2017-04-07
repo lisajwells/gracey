@@ -578,8 +578,6 @@ input[type="submit"],
 .ghh .fl-builder-content a.fl-button,
 .button.sidebarButton,
 .vfb-item .vfb-submit {
-/*  background-color: #779386;
-  border: 2px solid #46564F;*/
   background-color: #675b7d;
   border: 2px solid #2B2636;
   border-radius: 0 !important;
@@ -595,6 +593,13 @@ input[type="submit"],
   text-decoration: none;
   white-space: normal;
   width: auto; }
+
+.comment-form .submit,
+.vfb-item .vfb-submit,
+.ghh .fl-builder-content .green-button a.fl-button {
+  background-color: #779386;
+  border: 2px solid #46564F;
+}
 
 .ghh .fl-builder-content a.fl-button * {
   color: #fff; }
