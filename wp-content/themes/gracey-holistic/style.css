@@ -592,7 +592,13 @@ input[type="submit"],
   padding: 12px 20px;
   text-decoration: none;
   white-space: normal;
-  width: auto; }
+  width: auto;
+}
+
+.fl-button-text {
+  font-size: 18px;
+  font-size: 1.8rem;
+}
 
 .comment-form .submit,
 .vfb-item .vfb-submit,
@@ -744,7 +750,8 @@ th:first-child {
 .landing-page .site-inner,
 .lead-capture-page .site-inner {
   margin-top: 0;
-  max-width: 840px; }
+  max-width: 840px;
+}
 
 .home .site-inner {
   max-width: none; }
