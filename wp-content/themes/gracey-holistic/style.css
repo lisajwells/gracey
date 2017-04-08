@@ -55,6 +55,7 @@
   - Beaver Builder Content
   - Team Page
   - Contact Page
+  - Landing Page
   - Sidebar
   - Offscreen Content
   - Footer Wodgets
@@ -1599,9 +1600,14 @@ ul.vfb-section input {
     max-width: 320px;
 }
 
-/* Team Page
+/* Landing Page
 ---------------------------------------------------------------------------------------------------- */
-/* deleted because we're not using it */
+
+.active-camp-subscribe-landing {
+    width: 50%;
+    float: right;
+}
+
 /* Sidebar
 ---------------------------------------------------------------------------------------------------- */
 .sidebar {
