@@ -348,7 +348,8 @@ a:focus {
   color: #675b7d;
   text-decoration: none; }
 
-.entry-content p a {
+.entry-content p a,
+.entry-content .content li a {
   border-bottom: 2px solid #675b7d;
   color: #779386;
   font-weight: 700;
@@ -520,6 +521,10 @@ img {
 
 img.vertical {
   vertical-align: top; }
+
+img.top-of-text {
+  margin-top: 8px;
+}
 
 figure {
   margin: 0; }
@@ -1025,7 +1030,7 @@ img.alignnone,
 a.alignleft,
 img.alignleft,
 .wp-caption.alignleft {
-  margin: 0 20px 20px 0; }
+  margin: 0 30px 30px 0; }
 
 a.alignright,
 img.alignright,
@@ -1034,12 +1039,13 @@ img.alignright,
 
 .gallery-caption,
 .wp-caption-text {
-  font-size: 18px;
-  font-size: 1.8rem;
+  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 700;
+  line-height: 1.2;
   margin-bottom: 40px;
   margin-left: 0;
-  text-align: center; }
+  text-align: left; }
 
 .entry-content p.gallery-caption,
 .entry-content p.wp-caption-text {
@@ -1375,7 +1381,9 @@ img.alignright,
 
 .page .content .entry,
 .single .content .entry {
-  padding-bottom: 0; }
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
 
 .entry-content ol,
 .entry-content ul {
@@ -1763,7 +1771,8 @@ ul.vfb-section input {
   color: #fffee6;
   line-height: 1;
   padding-bottom: 60px;
-  text-align: center; }
+  text-align: center;
+}
 
 .site-footer .wrap {
   margin: 0 auto;
