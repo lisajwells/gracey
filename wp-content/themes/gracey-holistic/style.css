@@ -56,6 +56,7 @@
   - Team Page
   - Contact Page
   - Landing Page
+  - Blog Archive Page
   - Sidebar
   - Offscreen Content
   - Footer Wodgets
@@ -1382,7 +1383,7 @@ img.alignright,
 
 .page .content .entry,
 .single .content .entry {
-    margin-bottom: 0;
+    /*margin-bottom: 0;*/
     padding-bottom: 0;
 }
 
@@ -1617,6 +1618,13 @@ ul.vfb-section input {
     width: 40%;
     float: right;
     margin-left: 2em;
+}
+
+/* Blog Archive Page
+---------------------------------------------------------------------------------------------------- */
+
+.fl-post-grid-image img {
+  margin-bottom: 0;
 }
 
 /* Sidebar
