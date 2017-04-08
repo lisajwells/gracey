@@ -589,7 +589,7 @@ input[type="submit"],
   font-size: 1.8rem;
   -webkit-font-smoothing: antialiased;
   font-weight: 700;
-  line-height: 1;
+  line-height: 1.2;
   padding: 12px 20px;
   text-decoration: none;
   white-space: normal;
@@ -599,6 +599,7 @@ input[type="submit"],
 .fl-button-text {
   font-size: 18px;
   font-size: 1.8rem;
+  line-height: 1.2;
 }
 
 .comment-form .submit,
@@ -1604,8 +1605,9 @@ ul.vfb-section input {
 ---------------------------------------------------------------------------------------------------- */
 
 .active-camp-subscribe-landing {
-    width: 50%;
+    width: 40%;
     float: right;
+    margin-left: 2em;
 }
 
 /* Sidebar
