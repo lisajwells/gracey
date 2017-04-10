@@ -2035,15 +2035,15 @@ ul.vfb-section input {
 
 @media only screen and (max-width: 768px) {
 
-  .fl-col-group.fl-node-58c5bd5dabcd5.fl-col-group-custom-width { /* front-page section 3 nav images */
+  .fl-col-group.fl-node-58c5bd5dabcd5.fl-col-group-custom-width { /* front-page section 3 nav-images */
       max-width: 400px;
       margin: 30px auto 0;
   }
 
-  .full-width-content .content {
+/*  .full-width-content .content {
     padding: 40px 20px;
   }
-
+*/
 }
 
 @media only screen and (max-width: 600px) {
