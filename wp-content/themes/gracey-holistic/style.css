@@ -2097,9 +2097,18 @@ ul.vfb-section input {
 
 @media only screen and (max-width: 768px) {
 
+  .page.page-template-page_blog .content .entry {
+      margin-bottom: 20px;
+  }
+
   .entry-title {
     font-size: 39px;
     font-size: 3.9rem;
+  }
+
+  .fl-module-rich-text h2 {
+    font-size: 26px;
+    font-size: 2.6rem;
   }
 
   .fl-col-group.fl-node-58c5bd5dabcd5.fl-col-group-custom-width { /* front-page section 3 nav-images */
@@ -2109,6 +2118,10 @@ ul.vfb-section input {
 
   .full-width-content .content {
     padding: 40px 10px 0;
+  }
+
+  .full-width-content .fl-rich-text .content {
+    padding: 0;
   }
 
   .home.full-width-content .content {
