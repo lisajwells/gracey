@@ -596,6 +596,7 @@ input[type="submit"],
   font-size: 1.8rem;
   -webkit-font-smoothing: antialiased;
   font-weight: 700;
+  height: auto;
   line-height: 1.2;
   padding: 12px 20px;
   text-decoration: none;
