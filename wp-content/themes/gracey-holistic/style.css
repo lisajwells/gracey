@@ -2131,6 +2131,15 @@ ul.vfb-section input {
     margin-bottom: 0;
   }
 
+  .ghh .fl-builder-content .fl-subscribe-form.fl-subscribe-form-inline .fl-form-field input {
+    height: 38px;
+  }
+
+  #text-4 { /* sidebar blog subscribe */
+    display: none;
+  }
+
+
 }
 
 @media only screen and (max-width: 600px) {
