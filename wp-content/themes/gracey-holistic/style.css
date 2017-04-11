@@ -816,7 +816,7 @@ th:first-child {
   border: 4px double #675b7d;
   float: right;
   margin-bottom: 40px;
-  margin-top: 117px;
+  margin-top: 45px;
   min-height: 0 !important;
   padding: 20px;
   width: 30%;
@@ -1636,7 +1636,7 @@ ul.vfb-section input {
   padding: 4px;
 }
 
-.page-id-30 .fl-module-map {
+.page-id-30 .fl-col-content .fl-module-map {
     max-width: 320px;
 }
 
@@ -1893,6 +1893,22 @@ ul.vfb-section input {
     margin-right: 40px;
   }
 
+
+}
+
+@media only screen and (max-width: 980px) {
+
+  .ghh .fl-subscribe-form-inline .fl-form-field,
+  .ghh .fl-subscribe-form-inline .fl-form-button {
+      float: none;
+      margin: 0 0 15px;
+      padding-right: 0;
+      width: 100%;
+  }
+
+  .ghh .fl-builder-content .fl-subscribe-form.fl-subscribe-form-inline .fl-form-field input {
+      height: 38px;
+  }
 
 }
 
