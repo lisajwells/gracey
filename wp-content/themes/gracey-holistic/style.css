@@ -1069,6 +1069,7 @@ img.alignright,
 .wp-post-image {
   margin-bottom: 1em;
   max-width: 500px;
+  width: 100%;
 }
 
 /* Widgets
