@@ -1880,6 +1880,20 @@ ul.vfb-section input {
   .content {
     padding: 60px 60px; }
 
+  .sidebar-primary {
+    width: 35%;
+  }
+
+  .content-sidebar .content {
+    width: 65%; }
+
+  .single .content .entry {
+    /* margin-bottom: 0; */
+    padding-bottom: 0;
+    margin-right: 40px;
+  }
+
+
 }
 
 @media only screen and (max-width: 960px) {
@@ -1890,14 +1904,10 @@ ul.vfb-section input {
   .header-image .title-area,
   .js .genesis-nav-menu .sub-menu,
   .js .genesis-nav-menu .sub-menu a,
-  .sidebar-primary,
+  /*.sidebar-primary,*//*moved to 768*/
   .site-header .nav-primary,
   .title-area {
     width: 100%;
-  }
-
-  .sidebar-primary {
-    margin-top: 0;
   }
 
   #wpp-2,
@@ -2052,19 +2062,28 @@ ul.vfb-section input {
     margin-top: 0; }
   .home .site-inner {
     padding: 0; }
-  .content,
-  .content-sidebar .content,
+
+ /* .content, *//*move to 768*/
+/*  .content-sidebar .content,
   .sidebar-content .content {
     float: none;
     padding: 0; }
+
   .content-sidebar .content {
     border-left: none;
     border-right: none;
     width: 100%; }
+*/
   .content-sidebar .content-sidebar-wrap {
     margin: 20px auto; }
+
   .sidebar .widget {
     padding: 5%; }
+
+    #text-8 { /* video widget */
+      padding: 0;
+    }
+
   .sidebar .widget:last-child {
     border-bottom: none; }
 
@@ -2121,6 +2140,22 @@ ul.vfb-section input {
   .entry-title {
     font-size: 39px;
     font-size: 3.9rem;
+  }
+
+  .content, /*move to 768*/
+  .content-sidebar .content,
+  .sidebar-content .content {
+    float: none;
+    padding: 0; }
+
+  .content-sidebar .content {
+    border-left: none;
+    border-right: none;
+    width: 100%; }
+
+  .sidebar-primary {
+    width: 100%;
+    margin-top: 0;
   }
 
   .fl-module-rich-text h2 {
