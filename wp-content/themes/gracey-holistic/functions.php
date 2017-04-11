@@ -325,7 +325,7 @@ add_filter( 'genesis_footer_creds_text', 'ghh_footer_copyright_text' );
  * @link http://wpbeaches.com/changing-genesis-theme-copyright-line-footer-wordpress/
  */
 function ghh_footer_copyright_text () {
-	$copyright = '<div class="creditline"><p class="sitemap-link"><a href="'.get_bloginfo( 'url' ).'/sitemap">Sitemap</a></p><p>Copyright &copy; ' . date('Y') . ' &middot; <a href="'.get_bloginfo( 'url' ).'">Gracey Holistic Health</a> &middot; All Rights Reserved.</div>';
+	$copyright = '<div class="creditline"><p class="sitemap-link"><a href="'.get_bloginfo( 'url' ).'/sitemap">Sitemap</a></p><p>Copyright &copy; ' . date('Y') . ' &middot; <a href="'.get_bloginfo( 'url' ).'">Gracey Holistic Health</a> &middot; All&nbsp;Rights&nbsp;Reserved.</div>';
 
 	return $copyright;
 }
