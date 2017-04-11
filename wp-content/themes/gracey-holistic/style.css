@@ -2065,6 +2065,13 @@ ul.vfb-section input {
     padding-left: 10px;
     padding-right: 10px; }
 
+  img.alignleft.size-medium {
+    display: block;
+    float: none;
+    width: 100%;
+    max-width: 400px;
+  }
+
 }
 
 @media only screen and (max-width: 840px) {
@@ -2104,19 +2111,17 @@ ul.vfb-section input {
 }
 */
 
-  .page-id-34 .bb-sidebar-container {
+  .page-id-34 .bb-sidebar-container { /* bio page below logos */
     margin-top: 40px;
   }
 
-  .wp-caption.alignleft {
-    float: none;
-    margin: 0 0 0 10px;
+  .wp-caption.alignleft { /* figure */
+    margin-left: 10px;
   }
 
   figcaption.wp-caption-text {
     margin-bottom: 0;
   }
-
 
 }
 
@@ -2161,3 +2166,12 @@ ul.vfb-section input {
 
 :-ms-input-placeholder {
   color: #444; }
+
+@media only screen and (max-width: 500px) {
+
+  .wp-caption.alignleft { /* figure */
+    display: block;
+    float: none;
+  }
+
+}
