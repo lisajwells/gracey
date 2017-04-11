@@ -620,6 +620,10 @@ input[type="submit"],
 .ghh .fl-builder-content a.fl-button * {
   color: #fff; }
 
+.ghh .fl-subscribe-form.fl-subscribe-form-inline a.fl-button {
+    height: auto;
+}
+
 .button.large {
   font-size: 12px;
   font-size: 1.2rem;
