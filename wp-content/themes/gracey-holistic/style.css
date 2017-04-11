@@ -1893,16 +1893,33 @@ ul.vfb-section input {
   .sidebar-primary,
   .site-header .nav-primary,
   .title-area {
-    width: 100%; }
+    width: 100%;
+  }
+
+  .sidebar-primary {
+    margin-top: 0;
+  }
+
+  #wpp-2,
+  #nav_menu-2 {
+    padding-top: 0;
+  }
+
   .site-header {
-    position: static; }
+    position: static;
+  }
+
   .title-area {
-    padding-bottom: 15px; }
+    padding-bottom: 15px;
+  }
+
   .header-image .site-title > a {
     background-position: center !important;
     display: block;
     float: none;
-    margin: 0 auto; }
+    margin: 0 auto;
+  }
+
   .genesis-nav-menu li,
   .header-image .title-area {
     float: none; }
