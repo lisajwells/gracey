@@ -350,8 +350,8 @@ a:focus {
   text-decoration: none; }
 
 .entry-content p a,
-.entry-content .content li a/*,
-.entry-content .fl-node-content li a*/ {
+.entry-content .content li a,
+.entry-content .fl-rich-text li a {
   border-bottom: 2px solid #675b7d;
   color: #779386;
   font-weight: 700;
@@ -2153,6 +2153,26 @@ ul.vfb-section input {
     display: none;
   }
 
+  blockquote {
+    font-size: 22px;
+    font-size: 2.2rem;
+  }
+
+  blockquote:before, blockquote:after {
+    background-size: 41px;
+    height: 38px;
+    line-height: 38px;
+    width: 44px;
+  }
+
+  blockquote:after {
+    background-position: 1px -41px;
+    bottom: 72px;
+  }
+
+  blockquote p {
+    padding: 0 52px;
+  }
 
 }
 
