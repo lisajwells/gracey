@@ -16,7 +16,7 @@ remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
 // [fl_builder_insert_layout slug="test-text-and-form-group"]
 add_action( 'genesis_before_comment_form', 'ghh_add_bb_subscribe_form' );
 function ghh_add_bb_subscribe_form() {
-    echo do_shortcode('[fl_builder_insert_layout slug="subscribe-form-mailchimp-inline"]');
+    echo do_shortcode('[fl_builder_insert_layout slug="subscribe-form-active-camp-inline"]');
 }
 
 genesis();
