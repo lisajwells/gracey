@@ -408,6 +408,15 @@ em,
 i {
   font-style: italic; }
 
+cite {
+    /* text-align: right; */
+    display: block;
+    text-align: right;
+}
+
+cite:before {
+  content: "\2014";
+}
 mark {
   background: #fffee6;
   color: #444; }
