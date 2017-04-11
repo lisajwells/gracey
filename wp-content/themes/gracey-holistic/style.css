@@ -409,9 +409,8 @@ i {
   font-style: italic; }
 
 cite {
-    /* text-align: right; */
     display: block;
-    text-align: right;
+    margin: -16px 0 60px;
 }
 
 cite:before {
