@@ -2172,6 +2172,7 @@ ul.vfb-section input {
   .wp-caption.alignleft { /* figure */
     display: block;
     float: none;
+    margin-bottom: -32px;
   }
 
 }
