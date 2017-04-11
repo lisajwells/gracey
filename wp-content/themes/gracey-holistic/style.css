@@ -1949,11 +1949,18 @@ ul.vfb-section input {
   .genesis-nav-menu li,
   .header-image .title-area {
     float: none; }
+
   .genesis-nav-menu,
   .site-description,
   .site-header .title-area,
   .site-title {
-    text-align: center; }
+    text-align: center;
+  }
+
+  .genesis-nav-menu {
+      padding-bottom: 12px;
+  }
+
   /* Genesis Responsive Menus */
   .js .site-header nav .wrap {
     padding: 0; }
