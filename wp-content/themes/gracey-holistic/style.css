@@ -623,6 +623,9 @@ input[type="submit"],
 .ghh .fl-subscribe-form.fl-subscribe-form-inline a.fl-button {
     height: auto;
 }
+.ghh .fl-builder-content .fl-subscribe-form.fl-subscribe-form-inline .fl-form-field input {
+    height: 65px;
+}
 
 .button.large {
   font-size: 12px;
