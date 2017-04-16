@@ -2246,6 +2246,10 @@ ul.vfb-section input {
     margin-top: -30px;
   }
 
+  .services-group {
+    max-width: 400px;
+  }
+
   blockquote {
     font-size: 22px;
     font-size: 2.2rem;
