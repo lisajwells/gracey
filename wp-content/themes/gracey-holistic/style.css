@@ -1983,7 +1983,7 @@ ul.vfb-section input {
 
   .menu-toggle,
   .sub-menu-toggle {
-    background-color: #675b7d;
+    background-color: transparent;
     border-width: 0;
     color: #fff;
     display: block;
@@ -2169,6 +2169,10 @@ ul.vfb-section input {
 
   .page.page-template-page_blog .content .entry {
       margin-bottom: 20px;
+  }
+
+  .single .content .entry {
+    margin-right: 0;
   }
 
   .entry-title {
