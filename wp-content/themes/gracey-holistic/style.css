@@ -2224,7 +2224,7 @@ ul.vfb-section input {
   }
 
   .wp-caption.alignleft { /* figure */
-    margin-left: 10px;
+    /*margin-left: 10px;*/
   }
 
   figcaption.wp-caption-text {
