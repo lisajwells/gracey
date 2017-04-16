@@ -838,7 +838,8 @@ th:first-child {
 
 #text-4,
 .fl-node-58d8ea534f789 > .fl-row-content-wrap,
-.schedule-box {
+.schedule-box,
+.subscribe-landing-col {
     background: #779386;
     color: #fff;
     padding: 20px;
@@ -2119,8 +2120,10 @@ ul.vfb-section input {
     border-bottom: none; }
 
   .footer-widgets .widget-area {
+    float: none;
     margin: 0 auto;
     padding-bottom: 0;
+    max-width: 500px;
     width: 100%;
   }
 
@@ -2234,6 +2237,13 @@ ul.vfb-section input {
 
   #text-4 { /* sidebar blog subscribe */
     display: none;
+  }
+
+  .active-camp-subscribe-landing {
+    width: 100%;
+    float: none;
+    margin-left: 0;
+    margin-top: -30px;
   }
 
   blockquote {
