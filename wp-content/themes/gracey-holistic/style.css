@@ -821,7 +821,7 @@ th:first-child {
 
 /* Primary Sidebar */
 .sidebar-primary {
-  border: 4px double #675b7d;
+  border: 3px double #675b7d;
   float: right;
   margin-bottom: 40px;
   margin-top: 45px;
