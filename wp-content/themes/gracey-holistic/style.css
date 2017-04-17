@@ -831,6 +831,11 @@ th:first-child {
   width: 30%;
 }
 
+.bb-sidebar-container .fl-col-content {
+  position: relative;
+}
+
+.bb-sidebar-container .fl-col-content:before,
 .sidebar-primary:before {
   content: " ";
   position: absolute;
