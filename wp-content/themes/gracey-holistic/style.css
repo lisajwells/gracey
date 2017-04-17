@@ -821,12 +821,13 @@ th:first-child {
 
 /* Primary Sidebar */
 .sidebar-primary {
-  border: 3px double #675b7d;
+  border: 1px double #675b7d;
   float: right;
   margin-bottom: 40px;
   margin-top: 45px;
   min-height: 0 !important;
   padding: 20px;
+  position: relative;
   width: 30%;
 }
 
