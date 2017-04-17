@@ -831,6 +831,17 @@ th:first-child {
   width: 30%;
 }
 
+.sidebar-primary:before {
+  content: " ";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  border: 1px solid #675b7d;
+  z-index: -1;
+}
+
 .sidebar-content .sidebar-primary {
   float: left; }
 
