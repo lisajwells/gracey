@@ -1627,23 +1627,14 @@ p.entry-meta {
     max-width: 300px;
 }
 
+.clip_info-header {
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
 /* Bio Page
 ---------------------------------------------------------------------------------------------------- */
-
-/*.bio-logo {
-  max-height: 100px;
-  max-width: 200px;
-}
-
-.bio-logo img {
-  max-height: 100px;
-}
-
-#bio-logo-2 img {
-  max-height: 90px;
-}
-*/
-
 
 /* Contact Page
 ---------------------------------------------------------------------------------------------------- */
