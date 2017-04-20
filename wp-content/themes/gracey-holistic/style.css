@@ -1560,7 +1560,8 @@ p.entry-meta {
 .comment-respond input[type="email"],
 .comment-respond input[type="text"],
 .comment-respond input[type="url"] {
-  width: 50%; }
+  /*width: 50%; */
+}
 
 .comment-respond label {
   display: block;
