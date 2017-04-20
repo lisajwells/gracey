@@ -2303,6 +2303,24 @@ ul.vfb-section input {
     padding: 0 52px;
   }
 
+  .contact-page-brookline-group {
+    margin-top: 1em;
+  }
+
+  .contact-page-belmont-group h5,
+  .contact-page-brookline-group h5 {
+    margin-bottom: 6px;
+  }
+
+  .contact-page-belmont-group p,
+  .contact-page-brookline-group p {
+    margin-bottom: 14px;
+  }
+
+  #vfb-form-1 {
+      margin-bottom: 1.4em;
+  }
+
 }
 
 @media only screen and (max-width: 600px) {
