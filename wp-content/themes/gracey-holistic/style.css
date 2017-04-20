@@ -538,7 +538,10 @@ img.top-of-text {
 
 figure {
   margin: 0; }
-
+.d-border {
+      border: 1px double #675b7d;
+      padding:20px;
+}
 /* Gallery
 --------------------------------------------- */
 /* deleted because we're not using it */
@@ -568,6 +571,7 @@ textarea:focus {
 input[type="email"],
 input[type="search"],
 input[type="submit"],
+input[type="tel"],
 input[type="text"],
 input[type="url"],
 textarea {
@@ -1362,10 +1366,26 @@ img.alignright,
   #menu-item-185 a:hover {
     color: #46564F; }
 
-#menu-item-185 a span {
+#menu-item-185 a span,
+.contact-cta {
   background: #779386;
   border: 1px #46564F solid;
   padding: 8px;
+}
+
+.contact-cta {
+  padding: 20px;
+  color: #fff;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.contact-cta a {
+  color:#fff!important;
+}
+
+.contact-cta p {
+    margin-bottom: 0;
 }
 
 /* Accessible Menu
