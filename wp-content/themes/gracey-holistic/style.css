@@ -56,6 +56,7 @@
   - Bio Page
   - Contact Page
   - Landing Page
+  - Testimonials Page
   - Blog Archive Page
   - Sidebar
   - Offscreen Content
@@ -1687,6 +1688,13 @@ ul.vfb-section input {
     margin-left: 2em;
 }
 
+/* Testimonials Page
+---------------------------------------------------------------------------------------------------- */
+
+.testimonials-text {
+    margin-bottom: -60px;
+}
+
 /* Blog Archive Page
 ---------------------------------------------------------------------------------------------------- */
 
@@ -2302,6 +2310,10 @@ ul.vfb-section input {
 
   blockquote p {
     padding: 0 52px;
+  }
+
+  .testimonials-text {
+    margin-bottom: -24px;
   }
 
   .contact-page-brookline-group {
